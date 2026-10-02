@@ -1,0 +1,394 @@
+{
+  "version": "2.18.2",
+  "name": "MPK Mini IV DAW Actions",
+  "defaultGroup": {},
+  "groups": [
+    { "id": "mpkMainTransport01000", "name": "Transport" },
+    { "id": "mpkMainEdit0000001000", "name": "Edit" },
+    { "id": "mpkMainNav00000001000", "name": "Navigation & metronome" }
+  ],
+  "mappings": [
+    {
+      "id": "mpkMainPlayStop010000",
+      "name": "Play/Stop",
+      "groupId": "mpkMainTransport01000",
+      "source": {
+        "category": "virtual",
+        "controlElementType": "Button",
+        "controlElementIndex": "daw/play-stop",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "buttonIndex": 0,
+        "buttonDesign": {
+          "background": { "kind": "Color" },
+          "foreground": { "kind": "None" },
+          "static_text": ""
+        }
+      },
+      "mode": { "type": 2, "maxStepSize": 0.05, "minStepFactor": 1, "maxStepFactor": 5 },
+      "target": {
+        "type": 16,
+        "transportAction": "playStop",
+        "fxAnchor": "id",
+        "useSelectionGanging": false,
+        "useTrackGrouping": false,
+        "seekBehavior": "Immediate",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0,
+        "mouseAction": { "kind": "MoveTo", "axis": "X" },
+        "takeMappingSnapshot": { "kind": "LastLoaded" }
+      }
+    },
+    {
+      "id": "mpkMainPause000010000",
+      "name": "Pause",
+      "groupId": "mpkMainTransport01000",
+      "source": {
+        "category": "virtual",
+        "controlElementType": "Button",
+        "controlElementIndex": "daw/pause",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "buttonIndex": 0,
+        "buttonDesign": {
+          "background": { "kind": "Color" },
+          "foreground": { "kind": "None" },
+          "static_text": ""
+        }
+      },
+      "mode": { "type": 2, "maxStepSize": 0.05, "minStepFactor": 1, "maxStepFactor": 5 },
+      "target": {
+        "type": 16,
+        "transportAction": "playPause",
+        "fxAnchor": "id",
+        "useSelectionGanging": false,
+        "useTrackGrouping": false,
+        "seekBehavior": "Immediate",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0,
+        "mouseAction": { "kind": "MoveTo", "axis": "X" },
+        "takeMappingSnapshot": { "kind": "LastLoaded" }
+      }
+    },
+    {
+      "id": "mpkMainRecord00010000",
+      "name": "Record",
+      "groupId": "mpkMainTransport01000",
+      "source": {
+        "category": "virtual",
+        "controlElementType": "Button",
+        "controlElementIndex": "daw/record",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "buttonIndex": 0,
+        "buttonDesign": {
+          "background": { "kind": "Color" },
+          "foreground": { "kind": "None" },
+          "static_text": ""
+        }
+      },
+      "mode": { "type": 2, "maxStepSize": 0.05, "minStepFactor": 1, "maxStepFactor": 5 },
+      "target": {
+        "type": 16,
+        "transportAction": "record",
+        "fxAnchor": "id",
+        "useSelectionGanging": false,
+        "useTrackGrouping": false,
+        "seekBehavior": "Immediate",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0,
+        "mouseAction": { "kind": "MoveTo", "axis": "X" },
+        "takeMappingSnapshot": { "kind": "LastLoaded" }
+      }
+    },
+    {
+      "id": "mpkMainRepeat00010000",
+      "name": "Repeat (Loop)",
+      "groupId": "mpkMainTransport01000",
+      "source": {
+        "category": "virtual",
+        "controlElementType": "Button",
+        "controlElementIndex": "daw/loop",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "buttonIndex": 0,
+        "buttonDesign": {
+          "background": { "kind": "Color" },
+          "foreground": { "kind": "None" },
+          "static_text": ""
+        }
+      },
+      "mode": { "type": 2, "maxStepSize": 0.05, "minStepFactor": 1, "maxStepFactor": 5 },
+      "target": {
+        "type": 16,
+        "transportAction": "repeat",
+        "fxAnchor": "id",
+        "useSelectionGanging": false,
+        "useTrackGrouping": false,
+        "seekBehavior": "Immediate",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0,
+        "mouseAction": { "kind": "MoveTo", "axis": "X" },
+        "takeMappingSnapshot": { "kind": "LastLoaded" }
+      }
+    },
+    {
+      "id": "mpkMainUndo0000010000",
+      "name": "Undo",
+      "groupId": "mpkMainEdit0000001000",
+      "source": {
+        "category": "virtual",
+        "controlElementType": "Button",
+        "controlElementIndex": "daw/undo",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "buttonIndex": 0,
+        "buttonDesign": {
+          "background": { "kind": "Color" },
+          "foreground": { "kind": "None" },
+          "static_text": ""
+        }
+      },
+      "mode": { "maxStepSize": 0.05, "minStepFactor": 1, "maxStepFactor": 5 },
+      "target": {
+        "type": 0,
+        "commandName": "40029",
+        "invocationType": 0,
+        "fxAnchor": "id",
+        "useSelectionGanging": false,
+        "useTrackGrouping": false,
+        "seekBehavior": "Immediate",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0,
+        "mouseAction": { "kind": "MoveTo", "axis": "X" },
+        "takeMappingSnapshot": { "kind": "LastLoaded" }
+      }
+    },
+    {
+      "id": "mpkMainRedo0000010000",
+      "name": "Redo",
+      "groupId": "mpkMainEdit0000001000",
+      "source": {
+        "category": "virtual",
+        "controlElementType": "Button",
+        "controlElementIndex": "daw/redo",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "buttonIndex": 0,
+        "buttonDesign": {
+          "background": { "kind": "Color" },
+          "foreground": { "kind": "None" },
+          "static_text": ""
+        }
+      },
+      "mode": { "maxStepSize": 0.05, "minStepFactor": 1, "maxStepFactor": 5 },
+      "target": {
+        "type": 0,
+        "commandName": "40030",
+        "invocationType": 0,
+        "fxAnchor": "id",
+        "useSelectionGanging": false,
+        "useTrackGrouping": false,
+        "seekBehavior": "Immediate",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0,
+        "mouseAction": { "kind": "MoveTo", "axis": "X" },
+        "takeMappingSnapshot": { "kind": "LastLoaded" }
+      }
+    },
+    {
+      "id": "mpkMainQuantize010000",
+      "name": "Quantize (active MIDI editor)",
+      "groupId": "mpkMainEdit0000001000",
+      "source": {
+        "category": "virtual",
+        "controlElementType": "Button",
+        "controlElementIndex": "daw/quantize",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "buttonIndex": 0,
+        "buttonDesign": {
+          "background": { "kind": "Color" },
+          "foreground": { "kind": "None" },
+          "static_text": ""
+        }
+      },
+      "mode": { "maxStepSize": 0.05, "minStepFactor": 1, "maxStepFactor": 5 },
+      "target": {
+        "type": 0,
+        "commandName": "40009",
+        "invocationType": 0,
+        "actionScope": "ActiveMidiEditor",
+        "fxAnchor": "id",
+        "useSelectionGanging": false,
+        "useTrackGrouping": false,
+        "seekBehavior": "Immediate",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0,
+        "mouseAction": { "kind": "MoveTo", "axis": "X" },
+        "takeMappingSnapshot": { "kind": "LastLoaded" }
+      }
+    },
+    {
+      "id": "mpkMainNextMarker0000",
+      "name": "Go to next marker",
+      "groupId": "mpkMainNav00000001000",
+      "source": {
+        "category": "virtual",
+        "controlElementType": "Button",
+        "controlElementIndex": "daw/forward",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "buttonIndex": 0,
+        "buttonDesign": {
+          "background": { "kind": "Color" },
+          "foreground": { "kind": "None" },
+          "static_text": ""
+        }
+      },
+      "mode": { "maxStepSize": 0.05, "minStepFactor": 1, "maxStepFactor": 5 },
+      "target": {
+        "type": 0,
+        "commandName": "40173",
+        "invocationType": 0,
+        "fxAnchor": "id",
+        "useSelectionGanging": false,
+        "useTrackGrouping": false,
+        "seekBehavior": "Immediate",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0,
+        "mouseAction": { "kind": "MoveTo", "axis": "X" },
+        "takeMappingSnapshot": { "kind": "LastLoaded" }
+      }
+    },
+    {
+      "id": "mpkMainPrevMarker0000",
+      "name": "Go to previous marker",
+      "groupId": "mpkMainNav00000001000",
+      "source": {
+        "category": "virtual",
+        "controlElementType": "Button",
+        "controlElementIndex": "daw/backward",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "buttonIndex": 0,
+        "buttonDesign": {
+          "background": { "kind": "Color" },
+          "foreground": { "kind": "None" },
+          "static_text": ""
+        }
+      },
+      "mode": { "maxStepSize": 0.05, "minStepFactor": 1, "maxStepFactor": 5 },
+      "target": {
+        "type": 0,
+        "commandName": "40172",
+        "invocationType": 0,
+        "fxAnchor": "id",
+        "useSelectionGanging": false,
+        "useTrackGrouping": false,
+        "seekBehavior": "Immediate",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0,
+        "mouseAction": { "kind": "MoveTo", "axis": "X" },
+        "takeMappingSnapshot": { "kind": "LastLoaded" }
+      }
+    },
+    {
+      "id": "mpkMainMetronome10000",
+      "name": "Toggle metronome",
+      "groupId": "mpkMainNav00000001000",
+      "source": {
+        "category": "virtual",
+        "controlElementType": "Button",
+        "controlElementIndex": "daw/metronome",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "buttonIndex": 0,
+        "buttonDesign": {
+          "background": { "kind": "Color" },
+          "foreground": { "kind": "None" },
+          "static_text": ""
+        }
+      },
+      "mode": { "maxStepSize": 0.05, "minStepFactor": 1, "maxStepFactor": 5 },
+      "target": {
+        "type": 0,
+        "commandName": "40364",
+        "invocationType": 0,
+        "fxAnchor": "id",
+        "useSelectionGanging": false,
+        "useTrackGrouping": false,
+        "seekBehavior": "Immediate",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0,
+        "mouseAction": { "kind": "MoveTo", "axis": "X" },
+        "takeMappingSnapshot": { "kind": "LastLoaded" }
+      }
+    },
+    {
+      "id": "mpkMainTapTempo010000",
+      "name": "Tap tempo",
+      "groupId": "mpkMainNav00000001000",
+      "source": {
+        "category": "virtual",
+        "controlElementType": "Button",
+        "controlElementIndex": "daw/tap",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "buttonIndex": 0,
+        "buttonDesign": {
+          "background": { "kind": "Color" },
+          "foreground": { "kind": "None" },
+          "static_text": ""
+        }
+      },
+      "mode": { "maxStepSize": 0.05, "minStepFactor": 1, "maxStepFactor": 5 },
+      "target": {
+        "type": 0,
+        "commandName": "1134",
+        "invocationType": 0,
+        "fxAnchor": "id",
+        "useSelectionGanging": false,
+        "useTrackGrouping": false,
+        "seekBehavior": "Immediate",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0,
+        "mouseAction": { "kind": "MoveTo", "axis": "X" },
+        "takeMappingSnapshot": { "kind": "LastLoaded" }
+      }
+    }
+  ]
+}

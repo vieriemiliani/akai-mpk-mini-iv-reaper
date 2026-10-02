@@ -1,0 +1,465 @@
+{
+  "version": "2.18.2",
+  "name": "MPK Mini IV DAW Port",
+  "defaultGroup": {},
+  "groups": [
+    { "id": "mpkDawModifiersGrp100", "name": "Modifiers (internal)" },
+    { "id": "mpkDawSemanticGrp0100", "name": "DAW semantic events" }
+  ],
+  "parameters": {
+    "0": { "name": "Shift", "valueCount": 2 }
+  },
+  "mappings": [
+    {
+      "id": "mpkDawShiftModifier00",
+      "name": "Shift (internal, CC17)",
+      "groupId": "mpkDawModifiersGrp100",
+      "source": {
+        "channel": 0,
+        "number": 17,
+        "character": 1,
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "buttonIndex": 0,
+        "buttonDesign": {
+          "background": { "kind": "Color" },
+          "foreground": { "kind": "None" },
+          "static_text": ""
+        }
+      },
+      "mode": { "maxStepSize": 0.05, "minStepFactor": 1, "maxStepFactor": 5 },
+      "target": {
+        "type": 63,
+        "fxAnchor": "id",
+        "useSelectionGanging": false,
+        "useTrackGrouping": false,
+        "seekBehavior": "Immediate",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0,
+        "mouseAction": { "kind": "MoveTo", "axis": "X" },
+        "takeMappingSnapshot": { "kind": "LastLoaded" }
+      }
+    },
+    {
+      "id": "mpkDawPlayStop0001000",
+      "name": "Play/Stop (CC76)",
+      "groupId": "mpkDawSemanticGrp0100",
+      "activationType": "modifiers",
+      "modifierCondition1": { "paramIndex": 0, "isOn": false },
+      "source": {
+        "channel": 0,
+        "number": 76,
+        "character": 1,
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "buttonIndex": 0,
+        "buttonDesign": {
+          "background": { "kind": "Color" },
+          "foreground": { "kind": "None" },
+          "static_text": ""
+        }
+      },
+      "mode": { "maxStepSize": 0.05, "minStepFactor": 1, "maxStepFactor": 5 },
+      "target": {
+        "category": "virtual",
+        "type": 53,
+        "controlElementType": "Button",
+        "controlElementIndex": "daw/play-stop",
+        "fxAnchor": "id",
+        "useSelectionGanging": false,
+        "useTrackGrouping": false,
+        "seekBehavior": "Immediate",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0,
+        "mouseAction": { "kind": "MoveTo", "axis": "X" },
+        "takeMappingSnapshot": { "kind": "LastLoaded" }
+      }
+    },
+    {
+      "id": "mpkDawPause0000010000",
+      "name": "Shift + Play/Stop -> Pause (CC76)",
+      "groupId": "mpkDawSemanticGrp0100",
+      "activationType": "modifiers",
+      "modifierCondition1": { "paramIndex": 0, "isOn": true },
+      "source": {
+        "channel": 0,
+        "number": 76,
+        "character": 1,
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "buttonIndex": 0,
+        "buttonDesign": {
+          "background": { "kind": "Color" },
+          "foreground": { "kind": "None" },
+          "static_text": ""
+        }
+      },
+      "mode": { "maxStepSize": 0.05, "minStepFactor": 1, "maxStepFactor": 5 },
+      "target": {
+        "category": "virtual",
+        "type": 53,
+        "controlElementType": "Button",
+        "controlElementIndex": "daw/pause",
+        "fxAnchor": "id",
+        "useSelectionGanging": false,
+        "useTrackGrouping": false,
+        "seekBehavior": "Immediate",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0,
+        "mouseAction": { "kind": "MoveTo", "axis": "X" },
+        "takeMappingSnapshot": { "kind": "LastLoaded" }
+      }
+    },
+    {
+      "id": "mpkDawRecord000010000",
+      "name": "Record (CC77)",
+      "groupId": "mpkDawSemanticGrp0100",
+      "activationType": "modifiers",
+      "modifierCondition1": { "paramIndex": 0, "isOn": false },
+      "source": {
+        "channel": 0,
+        "number": 77,
+        "character": 1,
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "buttonIndex": 0,
+        "buttonDesign": {
+          "background": { "kind": "Color" },
+          "foreground": { "kind": "None" },
+          "static_text": ""
+        }
+      },
+      "mode": { "maxStepSize": 0.05, "minStepFactor": 1, "maxStepFactor": 5 },
+      "target": {
+        "category": "virtual",
+        "type": 53,
+        "controlElementType": "Button",
+        "controlElementIndex": "daw/record",
+        "fxAnchor": "id",
+        "useSelectionGanging": false,
+        "useTrackGrouping": false,
+        "seekBehavior": "Immediate",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0,
+        "mouseAction": { "kind": "MoveTo", "axis": "X" },
+        "takeMappingSnapshot": { "kind": "LastLoaded" }
+      }
+    },
+    {
+      "id": "mpkDawQuantize0010000",
+      "name": "Shift + Record -> Quantize (CC77)",
+      "groupId": "mpkDawSemanticGrp0100",
+      "activationType": "modifiers",
+      "modifierCondition1": { "paramIndex": 0, "isOn": true },
+      "source": {
+        "channel": 0,
+        "number": 77,
+        "character": 1,
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "buttonIndex": 0,
+        "buttonDesign": {
+          "background": { "kind": "Color" },
+          "foreground": { "kind": "None" },
+          "static_text": ""
+        }
+      },
+      "mode": { "maxStepSize": 0.05, "minStepFactor": 1, "maxStepFactor": 5 },
+      "target": {
+        "category": "virtual",
+        "type": 53,
+        "controlElementType": "Button",
+        "controlElementIndex": "daw/quantize",
+        "fxAnchor": "id",
+        "useSelectionGanging": false,
+        "useTrackGrouping": false,
+        "seekBehavior": "Immediate",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0,
+        "mouseAction": { "kind": "MoveTo", "axis": "X" },
+        "takeMappingSnapshot": { "kind": "LastLoaded" }
+      }
+    },
+    {
+      "id": "mpkDawLoop00000010000",
+      "name": "Loop (CC74)",
+      "groupId": "mpkDawSemanticGrp0100",
+      "activationType": "modifiers",
+      "modifierCondition1": { "paramIndex": 0, "isOn": false },
+      "source": {
+        "channel": 0,
+        "number": 74,
+        "character": 1,
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "buttonIndex": 0,
+        "buttonDesign": {
+          "background": { "kind": "Color" },
+          "foreground": { "kind": "None" },
+          "static_text": ""
+        }
+      },
+      "mode": { "maxStepSize": 0.05, "minStepFactor": 1, "maxStepFactor": 5 },
+      "target": {
+        "category": "virtual",
+        "type": 53,
+        "controlElementType": "Button",
+        "controlElementIndex": "daw/loop",
+        "fxAnchor": "id",
+        "useSelectionGanging": false,
+        "useTrackGrouping": false,
+        "seekBehavior": "Immediate",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0,
+        "mouseAction": { "kind": "MoveTo", "axis": "X" },
+        "takeMappingSnapshot": { "kind": "LastLoaded" }
+      }
+    },
+    {
+      "id": "mpkDawUndo00000010000",
+      "name": "Undo (CC73)",
+      "groupId": "mpkDawSemanticGrp0100",
+      "activationType": "modifiers",
+      "modifierCondition1": { "paramIndex": 0, "isOn": false },
+      "source": {
+        "channel": 0,
+        "number": 73,
+        "character": 1,
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "buttonIndex": 0,
+        "buttonDesign": {
+          "background": { "kind": "Color" },
+          "foreground": { "kind": "None" },
+          "static_text": ""
+        }
+      },
+      "mode": { "maxStepSize": 0.05, "minStepFactor": 1, "maxStepFactor": 5 },
+      "target": {
+        "category": "virtual",
+        "type": 53,
+        "controlElementType": "Button",
+        "controlElementIndex": "daw/undo",
+        "fxAnchor": "id",
+        "useSelectionGanging": false,
+        "useTrackGrouping": false,
+        "seekBehavior": "Immediate",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0,
+        "mouseAction": { "kind": "MoveTo", "axis": "X" },
+        "takeMappingSnapshot": { "kind": "LastLoaded" }
+      }
+    },
+    {
+      "id": "mpkDawRedo00000010000",
+      "name": "Shift + Undo -> Redo (CC73)",
+      "groupId": "mpkDawSemanticGrp0100",
+      "activationType": "modifiers",
+      "modifierCondition1": { "paramIndex": 0, "isOn": true },
+      "source": {
+        "channel": 0,
+        "number": 73,
+        "character": 1,
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "buttonIndex": 0,
+        "buttonDesign": {
+          "background": { "kind": "Color" },
+          "foreground": { "kind": "None" },
+          "static_text": ""
+        }
+      },
+      "mode": { "maxStepSize": 0.05, "minStepFactor": 1, "maxStepFactor": 5 },
+      "target": {
+        "category": "virtual",
+        "type": 53,
+        "controlElementType": "Button",
+        "controlElementIndex": "daw/redo",
+        "fxAnchor": "id",
+        "useSelectionGanging": false,
+        "useTrackGrouping": false,
+        "seekBehavior": "Immediate",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0,
+        "mouseAction": { "kind": "MoveTo", "axis": "X" },
+        "takeMappingSnapshot": { "kind": "LastLoaded" }
+      }
+    },
+    {
+      "id": "mpkDawForward00010000",
+      "name": "Forward / + (CC78)",
+      "groupId": "mpkDawSemanticGrp0100",
+      "activationType": "modifiers",
+      "modifierCondition1": { "paramIndex": 0, "isOn": false },
+      "source": {
+        "channel": 0,
+        "number": 78,
+        "character": 1,
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "buttonIndex": 0,
+        "buttonDesign": {
+          "background": { "kind": "Color" },
+          "foreground": { "kind": "None" },
+          "static_text": ""
+        }
+      },
+      "mode": { "maxStepSize": 0.05, "minStepFactor": 1, "maxStepFactor": 5 },
+      "target": {
+        "category": "virtual",
+        "type": 53,
+        "controlElementType": "Button",
+        "controlElementIndex": "daw/forward",
+        "fxAnchor": "id",
+        "useSelectionGanging": false,
+        "useTrackGrouping": false,
+        "seekBehavior": "Immediate",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0,
+        "mouseAction": { "kind": "MoveTo", "axis": "X" },
+        "takeMappingSnapshot": { "kind": "LastLoaded" }
+      }
+    },
+    {
+      "id": "mpkDawBackward0010000",
+      "name": "Shift + Forward -> Backward (CC78)",
+      "groupId": "mpkDawSemanticGrp0100",
+      "activationType": "modifiers",
+      "modifierCondition1": { "paramIndex": 0, "isOn": true },
+      "source": {
+        "channel": 0,
+        "number": 78,
+        "character": 1,
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "buttonIndex": 0,
+        "buttonDesign": {
+          "background": { "kind": "Color" },
+          "foreground": { "kind": "None" },
+          "static_text": ""
+        }
+      },
+      "mode": { "maxStepSize": 0.05, "minStepFactor": 1, "maxStepFactor": 5 },
+      "target": {
+        "category": "virtual",
+        "type": 53,
+        "controlElementType": "Button",
+        "controlElementIndex": "daw/backward",
+        "fxAnchor": "id",
+        "useSelectionGanging": false,
+        "useTrackGrouping": false,
+        "seekBehavior": "Immediate",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0,
+        "mouseAction": { "kind": "MoveTo", "axis": "X" },
+        "takeMappingSnapshot": { "kind": "LastLoaded" }
+      }
+    },
+    {
+      "id": "mpkDawTap000000010000",
+      "name": "Tap (CC82)",
+      "groupId": "mpkDawSemanticGrp0100",
+      "activationType": "modifiers",
+      "modifierCondition1": { "paramIndex": 0, "isOn": false },
+      "source": {
+        "channel": 0,
+        "number": 82,
+        "character": 1,
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "buttonIndex": 0,
+        "buttonDesign": {
+          "background": { "kind": "Color" },
+          "foreground": { "kind": "None" },
+          "static_text": ""
+        }
+      },
+      "mode": { "maxStepSize": 0.05, "minStepFactor": 1, "maxStepFactor": 5 },
+      "target": {
+        "category": "virtual",
+        "type": 53,
+        "controlElementType": "Button",
+        "controlElementIndex": "daw/tap",
+        "fxAnchor": "id",
+        "useSelectionGanging": false,
+        "useTrackGrouping": false,
+        "seekBehavior": "Immediate",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0,
+        "mouseAction": { "kind": "MoveTo", "axis": "X" },
+        "takeMappingSnapshot": { "kind": "LastLoaded" }
+      }
+    },
+    {
+      "id": "mpkDawMetronome010000",
+      "name": "Shift + Tap -> Metronome (CC82)",
+      "groupId": "mpkDawSemanticGrp0100",
+      "activationType": "modifiers",
+      "modifierCondition1": { "paramIndex": 0, "isOn": true },
+      "source": {
+        "channel": 0,
+        "number": 82,
+        "character": 1,
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "buttonIndex": 0,
+        "buttonDesign": {
+          "background": { "kind": "Color" },
+          "foreground": { "kind": "None" },
+          "static_text": ""
+        }
+      },
+      "mode": { "maxStepSize": 0.05, "minStepFactor": 1, "maxStepFactor": 5 },
+      "target": {
+        "category": "virtual",
+        "type": 53,
+        "controlElementType": "Button",
+        "controlElementIndex": "daw/metronome",
+        "fxAnchor": "id",
+        "useSelectionGanging": false,
+        "useTrackGrouping": false,
+        "seekBehavior": "Immediate",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0,
+        "mouseAction": { "kind": "MoveTo", "axis": "X" },
+        "takeMappingSnapshot": { "kind": "LastLoaded" }
+      }
+    }
+  ]
+}

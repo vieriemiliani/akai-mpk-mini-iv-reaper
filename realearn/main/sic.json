@@ -1,0 +1,5175 @@
+{
+  "version": "2.18.2",
+  "name": "SIC",
+  "defaultGroup": {},
+  "mappings": [
+    {
+      "id": "qaBdMJ9LkfKmIvc8l0hIP",
+      "name": "SIC - P1",
+      "source": {
+        "category": "virtual",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "buttonIndex": 0,
+        "buttonDesign": {
+          "background": {
+            "kind": "Color"
+          },
+          "foreground": {
+            "kind": "None"
+          },
+          "static_text": ""
+        },
+        "controlElementIndex": "encoder/1"
+      },
+      "mode": {
+        "maxStepSize": 0.05,
+        "minStepFactor": 1,
+        "maxStepFactor": 5
+      },
+      "target": {
+        "trackIndex": 4,
+        "fxAnchor": "focused",
+        "useSelectionGanging": false,
+        "useTrackGrouping": false,
+        "paramType": "index-manual",
+        "seekBehavior": "Immediate",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0,
+        "mouseAction": {
+          "kind": "MoveTo",
+          "axis": "X"
+        },
+        "takeMappingSnapshot": {
+          "kind": "LastLoaded"
+        }
+      }
+    },
+    {
+      "id": "rN7Pa8rY3YEGIPuvTHyNw",
+      "name": "SIC - P2",
+      "source": {
+        "category": "virtual",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "buttonIndex": 0,
+        "buttonDesign": {
+          "background": {
+            "kind": "Color"
+          },
+          "foreground": {
+            "kind": "None"
+          },
+          "static_text": ""
+        },
+        "controlElementIndex": "encoder/2"
+      },
+      "mode": {
+        "maxStepSize": 0.05,
+        "minStepFactor": 1,
+        "maxStepFactor": 5
+      },
+      "target": {
+        "trackIndex": 4,
+        "fxAnchor": "focused",
+        "useSelectionGanging": false,
+        "useTrackGrouping": false,
+        "paramType": "index-manual",
+        "paramIndex": 1,
+        "seekBehavior": "Immediate",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0,
+        "mouseAction": {
+          "kind": "MoveTo",
+          "axis": "X"
+        },
+        "takeMappingSnapshot": {
+          "kind": "LastLoaded"
+        }
+      }
+    },
+    {
+      "id": "tDVvMfQ7mhjOIV7nejdmp",
+      "name": "SIC - P3",
+      "source": {
+        "category": "virtual",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "buttonIndex": 0,
+        "buttonDesign": {
+          "background": {
+            "kind": "Color"
+          },
+          "foreground": {
+            "kind": "None"
+          },
+          "static_text": ""
+        },
+        "controlElementIndex": "encoder/3"
+      },
+      "mode": {
+        "maxStepSize": 0.05,
+        "minStepFactor": 1,
+        "maxStepFactor": 5
+      },
+      "target": {
+        "trackIndex": 4,
+        "fxAnchor": "focused",
+        "useSelectionGanging": false,
+        "useTrackGrouping": false,
+        "paramType": "index-manual",
+        "paramIndex": 2,
+        "seekBehavior": "Immediate",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0,
+        "mouseAction": {
+          "kind": "MoveTo",
+          "axis": "X"
+        },
+        "takeMappingSnapshot": {
+          "kind": "LastLoaded"
+        }
+      }
+    },
+    {
+      "id": "ZTUMjjGNzvFBOgZ1qROl3",
+      "name": "SIC - P4",
+      "source": {
+        "category": "virtual",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "buttonIndex": 0,
+        "buttonDesign": {
+          "background": {
+            "kind": "Color"
+          },
+          "foreground": {
+            "kind": "None"
+          },
+          "static_text": ""
+        },
+        "controlElementIndex": "encoder/4"
+      },
+      "mode": {
+        "maxStepSize": 0.05,
+        "minStepFactor": 1,
+        "maxStepFactor": 5
+      },
+      "target": {
+        "trackIndex": 4,
+        "fxAnchor": "focused",
+        "useSelectionGanging": false,
+        "useTrackGrouping": false,
+        "paramType": "index-manual",
+        "paramIndex": 3,
+        "seekBehavior": "Immediate",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0,
+        "mouseAction": {
+          "kind": "MoveTo",
+          "axis": "X"
+        },
+        "takeMappingSnapshot": {
+          "kind": "LastLoaded"
+        }
+      }
+    },
+    {
+      "id": "0k2j4Z7fQNxRlW058lKiR",
+      "name": "SIC - P5",
+      "source": {
+        "category": "virtual",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "buttonIndex": 0,
+        "buttonDesign": {
+          "background": {
+            "kind": "Color"
+          },
+          "foreground": {
+            "kind": "None"
+          },
+          "static_text": ""
+        },
+        "controlElementIndex": "encoder/5"
+      },
+      "mode": {
+        "maxStepSize": 0.05,
+        "minStepFactor": 1,
+        "maxStepFactor": 5
+      },
+      "target": {
+        "trackIndex": 4,
+        "fxAnchor": "focused",
+        "useSelectionGanging": false,
+        "useTrackGrouping": false,
+        "paramType": "index-manual",
+        "paramIndex": 4,
+        "seekBehavior": "Immediate",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0,
+        "mouseAction": {
+          "kind": "MoveTo",
+          "axis": "X"
+        },
+        "takeMappingSnapshot": {
+          "kind": "LastLoaded"
+        }
+      }
+    },
+    {
+      "id": "q2rSO8Nc6IlNU8IXSjGhE",
+      "name": "SIC - P6",
+      "source": {
+        "category": "virtual",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "buttonIndex": 0,
+        "buttonDesign": {
+          "background": {
+            "kind": "Color"
+          },
+          "foreground": {
+            "kind": "None"
+          },
+          "static_text": ""
+        },
+        "controlElementIndex": "encoder/6"
+      },
+      "mode": {
+        "maxStepSize": 0.05,
+        "minStepFactor": 1,
+        "maxStepFactor": 5
+      },
+      "target": {
+        "trackIndex": 4,
+        "fxAnchor": "focused",
+        "useSelectionGanging": false,
+        "useTrackGrouping": false,
+        "paramType": "index-manual",
+        "paramIndex": 5,
+        "seekBehavior": "Immediate",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0,
+        "mouseAction": {
+          "kind": "MoveTo",
+          "axis": "X"
+        },
+        "takeMappingSnapshot": {
+          "kind": "LastLoaded"
+        }
+      }
+    },
+    {
+      "id": "j8CWfU8pkxJ2b9tPW5HOF",
+      "name": "SIC - P7",
+      "source": {
+        "category": "virtual",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "buttonIndex": 0,
+        "buttonDesign": {
+          "background": {
+            "kind": "Color"
+          },
+          "foreground": {
+            "kind": "None"
+          },
+          "static_text": ""
+        },
+        "controlElementIndex": "encoder/7"
+      },
+      "mode": {
+        "maxStepSize": 0.05,
+        "minStepFactor": 1,
+        "maxStepFactor": 5
+      },
+      "target": {
+        "trackIndex": 4,
+        "fxAnchor": "focused",
+        "useSelectionGanging": false,
+        "useTrackGrouping": false,
+        "paramType": "index-manual",
+        "paramIndex": 6,
+        "seekBehavior": "Immediate",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0,
+        "mouseAction": {
+          "kind": "MoveTo",
+          "axis": "X"
+        },
+        "takeMappingSnapshot": {
+          "kind": "LastLoaded"
+        }
+      }
+    },
+    {
+      "id": "2w15K-xRoVzCQx-xmSN4w",
+      "name": "SIC - P8",
+      "source": {
+        "category": "virtual",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "buttonIndex": 0,
+        "buttonDesign": {
+          "background": {
+            "kind": "Color"
+          },
+          "foreground": {
+            "kind": "None"
+          },
+          "static_text": ""
+        },
+        "controlElementIndex": "encoder/8"
+      },
+      "mode": {
+        "maxStepSize": 0.05,
+        "minStepFactor": 1,
+        "maxStepFactor": 5
+      },
+      "target": {
+        "trackIndex": 4,
+        "fxAnchor": "focused",
+        "useSelectionGanging": false,
+        "useTrackGrouping": false,
+        "paramType": "index-manual",
+        "paramIndex": 7,
+        "seekBehavior": "Immediate",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0,
+        "mouseAction": {
+          "kind": "MoveTo",
+          "axis": "X"
+        },
+        "takeMappingSnapshot": {
+          "kind": "LastLoaded"
+        }
+      }
+    },
+    {
+      "id": "mpkMainEnc09000000000",
+      "name": "SIC - P9",
+      "source": {
+        "category": "virtual",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "buttonIndex": 0,
+        "buttonDesign": {
+          "background": {
+            "kind": "Color"
+          },
+          "foreground": {
+            "kind": "None"
+          },
+          "static_text": ""
+        },
+        "controlElementIndex": "encoder/9"
+      },
+      "mode": {
+        "maxStepSize": 0.05,
+        "minStepFactor": 1,
+        "maxStepFactor": 5
+      },
+      "target": {
+        "trackIndex": 4,
+        "fxAnchor": "focused",
+        "useSelectionGanging": false,
+        "useTrackGrouping": false,
+        "paramType": "index-manual",
+        "paramIndex": 8,
+        "seekBehavior": "Immediate",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0,
+        "mouseAction": {
+          "kind": "MoveTo",
+          "axis": "X"
+        },
+        "takeMappingSnapshot": {
+          "kind": "LastLoaded"
+        }
+      }
+    },
+    {
+      "id": "mpkMainEnc10000000000",
+      "name": "SIC - P10",
+      "source": {
+        "category": "virtual",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "buttonIndex": 0,
+        "buttonDesign": {
+          "background": {
+            "kind": "Color"
+          },
+          "foreground": {
+            "kind": "None"
+          },
+          "static_text": ""
+        },
+        "controlElementIndex": "encoder/10"
+      },
+      "mode": {
+        "maxStepSize": 0.05,
+        "minStepFactor": 1,
+        "maxStepFactor": 5
+      },
+      "target": {
+        "trackIndex": 4,
+        "fxAnchor": "focused",
+        "useSelectionGanging": false,
+        "useTrackGrouping": false,
+        "paramType": "index-manual",
+        "paramIndex": 9,
+        "seekBehavior": "Immediate",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0,
+        "mouseAction": {
+          "kind": "MoveTo",
+          "axis": "X"
+        },
+        "takeMappingSnapshot": {
+          "kind": "LastLoaded"
+        }
+      }
+    },
+    {
+      "id": "mpkMainEnc11000000000",
+      "name": "SIC - P11",
+      "source": {
+        "category": "virtual",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "buttonIndex": 0,
+        "buttonDesign": {
+          "background": {
+            "kind": "Color"
+          },
+          "foreground": {
+            "kind": "None"
+          },
+          "static_text": ""
+        },
+        "controlElementIndex": "encoder/11"
+      },
+      "mode": {
+        "maxStepSize": 0.05,
+        "minStepFactor": 1,
+        "maxStepFactor": 5
+      },
+      "target": {
+        "trackIndex": 4,
+        "fxAnchor": "focused",
+        "useSelectionGanging": false,
+        "useTrackGrouping": false,
+        "paramType": "index-manual",
+        "paramIndex": 10,
+        "seekBehavior": "Immediate",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0,
+        "mouseAction": {
+          "kind": "MoveTo",
+          "axis": "X"
+        },
+        "takeMappingSnapshot": {
+          "kind": "LastLoaded"
+        }
+      }
+    },
+    {
+      "id": "mpkMainEnc12000000000",
+      "name": "SIC - P12",
+      "source": {
+        "category": "virtual",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "buttonIndex": 0,
+        "buttonDesign": {
+          "background": {
+            "kind": "Color"
+          },
+          "foreground": {
+            "kind": "None"
+          },
+          "static_text": ""
+        },
+        "controlElementIndex": "encoder/12"
+      },
+      "mode": {
+        "maxStepSize": 0.05,
+        "minStepFactor": 1,
+        "maxStepFactor": 5
+      },
+      "target": {
+        "trackIndex": 4,
+        "fxAnchor": "focused",
+        "useSelectionGanging": false,
+        "useTrackGrouping": false,
+        "paramType": "index-manual",
+        "paramIndex": 11,
+        "seekBehavior": "Immediate",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0,
+        "mouseAction": {
+          "kind": "MoveTo",
+          "axis": "X"
+        },
+        "takeMappingSnapshot": {
+          "kind": "LastLoaded"
+        }
+      }
+    },
+    {
+      "id": "mpkMainEnc13000000000",
+      "name": "SIC - P13",
+      "source": {
+        "category": "virtual",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "buttonIndex": 0,
+        "buttonDesign": {
+          "background": {
+            "kind": "Color"
+          },
+          "foreground": {
+            "kind": "None"
+          },
+          "static_text": ""
+        },
+        "controlElementIndex": "encoder/13"
+      },
+      "mode": {
+        "maxStepSize": 0.05,
+        "minStepFactor": 1,
+        "maxStepFactor": 5
+      },
+      "target": {
+        "trackIndex": 4,
+        "fxAnchor": "focused",
+        "useSelectionGanging": false,
+        "useTrackGrouping": false,
+        "paramType": "index-manual",
+        "paramIndex": 12,
+        "seekBehavior": "Immediate",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0,
+        "mouseAction": {
+          "kind": "MoveTo",
+          "axis": "X"
+        },
+        "takeMappingSnapshot": {
+          "kind": "LastLoaded"
+        }
+      }
+    },
+    {
+      "id": "mpkMainEnc14000000000",
+      "name": "SIC - P14",
+      "source": {
+        "category": "virtual",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "buttonIndex": 0,
+        "buttonDesign": {
+          "background": {
+            "kind": "Color"
+          },
+          "foreground": {
+            "kind": "None"
+          },
+          "static_text": ""
+        },
+        "controlElementIndex": "encoder/14"
+      },
+      "mode": {
+        "maxStepSize": 0.05,
+        "minStepFactor": 1,
+        "maxStepFactor": 5
+      },
+      "target": {
+        "trackIndex": 4,
+        "fxAnchor": "focused",
+        "useSelectionGanging": false,
+        "useTrackGrouping": false,
+        "paramType": "index-manual",
+        "paramIndex": 13,
+        "seekBehavior": "Immediate",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0,
+        "mouseAction": {
+          "kind": "MoveTo",
+          "axis": "X"
+        },
+        "takeMappingSnapshot": {
+          "kind": "LastLoaded"
+        }
+      }
+    },
+    {
+      "id": "mpkMainEnc15000000000",
+      "name": "SIC - P15",
+      "source": {
+        "category": "virtual",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "buttonIndex": 0,
+        "buttonDesign": {
+          "background": {
+            "kind": "Color"
+          },
+          "foreground": {
+            "kind": "None"
+          },
+          "static_text": ""
+        },
+        "controlElementIndex": "encoder/15"
+      },
+      "mode": {
+        "maxStepSize": 0.05,
+        "minStepFactor": 1,
+        "maxStepFactor": 5
+      },
+      "target": {
+        "trackIndex": 4,
+        "fxAnchor": "focused",
+        "useSelectionGanging": false,
+        "useTrackGrouping": false,
+        "paramType": "index-manual",
+        "paramIndex": 14,
+        "seekBehavior": "Immediate",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0,
+        "mouseAction": {
+          "kind": "MoveTo",
+          "axis": "X"
+        },
+        "takeMappingSnapshot": {
+          "kind": "LastLoaded"
+        }
+      }
+    },
+    {
+      "id": "mpkMainEnc16000000000",
+      "name": "SIC - P16",
+      "source": {
+        "category": "virtual",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "buttonIndex": 0,
+        "buttonDesign": {
+          "background": {
+            "kind": "Color"
+          },
+          "foreground": {
+            "kind": "None"
+          },
+          "static_text": ""
+        },
+        "controlElementIndex": "encoder/16"
+      },
+      "mode": {
+        "maxStepSize": 0.05,
+        "minStepFactor": 1,
+        "maxStepFactor": 5
+      },
+      "target": {
+        "trackIndex": 4,
+        "fxAnchor": "focused",
+        "useSelectionGanging": false,
+        "useTrackGrouping": false,
+        "paramType": "index-manual",
+        "paramIndex": 15,
+        "seekBehavior": "Immediate",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0,
+        "mouseAction": {
+          "kind": "MoveTo",
+          "axis": "X"
+        },
+        "takeMappingSnapshot": {
+          "kind": "LastLoaded"
+        }
+      }
+    },
+    {
+      "id": "mpkMainEnc17000000000",
+      "name": "SIC - P17",
+      "source": {
+        "category": "virtual",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "buttonIndex": 0,
+        "buttonDesign": {
+          "background": {
+            "kind": "Color"
+          },
+          "foreground": {
+            "kind": "None"
+          },
+          "static_text": ""
+        },
+        "controlElementIndex": "encoder/17"
+      },
+      "mode": {
+        "maxStepSize": 0.05,
+        "minStepFactor": 1,
+        "maxStepFactor": 5
+      },
+      "target": {
+        "trackIndex": 4,
+        "fxAnchor": "focused",
+        "useSelectionGanging": false,
+        "useTrackGrouping": false,
+        "paramType": "index-manual",
+        "paramIndex": 16,
+        "seekBehavior": "Immediate",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0,
+        "mouseAction": {
+          "kind": "MoveTo",
+          "axis": "X"
+        },
+        "takeMappingSnapshot": {
+          "kind": "LastLoaded"
+        }
+      }
+    },
+    {
+      "id": "mpkMainEnc18000000000",
+      "name": "SIC - P18",
+      "source": {
+        "category": "virtual",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "buttonIndex": 0,
+        "buttonDesign": {
+          "background": {
+            "kind": "Color"
+          },
+          "foreground": {
+            "kind": "None"
+          },
+          "static_text": ""
+        },
+        "controlElementIndex": "encoder/18"
+      },
+      "mode": {
+        "maxStepSize": 0.05,
+        "minStepFactor": 1,
+        "maxStepFactor": 5
+      },
+      "target": {
+        "trackIndex": 4,
+        "fxAnchor": "focused",
+        "useSelectionGanging": false,
+        "useTrackGrouping": false,
+        "paramType": "index-manual",
+        "paramIndex": 17,
+        "seekBehavior": "Immediate",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0,
+        "mouseAction": {
+          "kind": "MoveTo",
+          "axis": "X"
+        },
+        "takeMappingSnapshot": {
+          "kind": "LastLoaded"
+        }
+      }
+    },
+    {
+      "id": "mpkMainEnc19000000000",
+      "name": "SIC - P19",
+      "source": {
+        "category": "virtual",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "buttonIndex": 0,
+        "buttonDesign": {
+          "background": {
+            "kind": "Color"
+          },
+          "foreground": {
+            "kind": "None"
+          },
+          "static_text": ""
+        },
+        "controlElementIndex": "encoder/19"
+      },
+      "mode": {
+        "maxStepSize": 0.05,
+        "minStepFactor": 1,
+        "maxStepFactor": 5
+      },
+      "target": {
+        "trackIndex": 4,
+        "fxAnchor": "focused",
+        "useSelectionGanging": false,
+        "useTrackGrouping": false,
+        "paramType": "index-manual",
+        "paramIndex": 18,
+        "seekBehavior": "Immediate",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0,
+        "mouseAction": {
+          "kind": "MoveTo",
+          "axis": "X"
+        },
+        "takeMappingSnapshot": {
+          "kind": "LastLoaded"
+        }
+      }
+    },
+    {
+      "id": "mpkMainEnc20000000000",
+      "name": "SIC - P20",
+      "source": {
+        "category": "virtual",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "buttonIndex": 0,
+        "buttonDesign": {
+          "background": {
+            "kind": "Color"
+          },
+          "foreground": {
+            "kind": "None"
+          },
+          "static_text": ""
+        },
+        "controlElementIndex": "encoder/20"
+      },
+      "mode": {
+        "maxStepSize": 0.05,
+        "minStepFactor": 1,
+        "maxStepFactor": 5
+      },
+      "target": {
+        "trackIndex": 4,
+        "fxAnchor": "focused",
+        "useSelectionGanging": false,
+        "useTrackGrouping": false,
+        "paramType": "index-manual",
+        "paramIndex": 19,
+        "seekBehavior": "Immediate",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0,
+        "mouseAction": {
+          "kind": "MoveTo",
+          "axis": "X"
+        },
+        "takeMappingSnapshot": {
+          "kind": "LastLoaded"
+        }
+      }
+    },
+    {
+      "id": "mpkMainEnc21000000000",
+      "name": "SIC - P21",
+      "source": {
+        "category": "virtual",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "buttonIndex": 0,
+        "buttonDesign": {
+          "background": {
+            "kind": "Color"
+          },
+          "foreground": {
+            "kind": "None"
+          },
+          "static_text": ""
+        },
+        "controlElementIndex": "encoder/21"
+      },
+      "mode": {
+        "maxStepSize": 0.05,
+        "minStepFactor": 1,
+        "maxStepFactor": 5
+      },
+      "target": {
+        "trackIndex": 4,
+        "fxAnchor": "focused",
+        "useSelectionGanging": false,
+        "useTrackGrouping": false,
+        "paramType": "index-manual",
+        "paramIndex": 20,
+        "seekBehavior": "Immediate",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0,
+        "mouseAction": {
+          "kind": "MoveTo",
+          "axis": "X"
+        },
+        "takeMappingSnapshot": {
+          "kind": "LastLoaded"
+        }
+      }
+    },
+    {
+      "id": "mpkMainEnc22000000000",
+      "name": "SIC - P22",
+      "source": {
+        "category": "virtual",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "buttonIndex": 0,
+        "buttonDesign": {
+          "background": {
+            "kind": "Color"
+          },
+          "foreground": {
+            "kind": "None"
+          },
+          "static_text": ""
+        },
+        "controlElementIndex": "encoder/22"
+      },
+      "mode": {
+        "maxStepSize": 0.05,
+        "minStepFactor": 1,
+        "maxStepFactor": 5
+      },
+      "target": {
+        "trackIndex": 4,
+        "fxAnchor": "focused",
+        "useSelectionGanging": false,
+        "useTrackGrouping": false,
+        "paramType": "index-manual",
+        "paramIndex": 21,
+        "seekBehavior": "Immediate",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0,
+        "mouseAction": {
+          "kind": "MoveTo",
+          "axis": "X"
+        },
+        "takeMappingSnapshot": {
+          "kind": "LastLoaded"
+        }
+      }
+    },
+    {
+      "id": "mpkMainEnc23000000000",
+      "name": "SIC - P23",
+      "source": {
+        "category": "virtual",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "buttonIndex": 0,
+        "buttonDesign": {
+          "background": {
+            "kind": "Color"
+          },
+          "foreground": {
+            "kind": "None"
+          },
+          "static_text": ""
+        },
+        "controlElementIndex": "encoder/23"
+      },
+      "mode": {
+        "maxStepSize": 0.05,
+        "minStepFactor": 1,
+        "maxStepFactor": 5
+      },
+      "target": {
+        "trackIndex": 4,
+        "fxAnchor": "focused",
+        "useSelectionGanging": false,
+        "useTrackGrouping": false,
+        "paramType": "index-manual",
+        "paramIndex": 22,
+        "seekBehavior": "Immediate",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0,
+        "mouseAction": {
+          "kind": "MoveTo",
+          "axis": "X"
+        },
+        "takeMappingSnapshot": {
+          "kind": "LastLoaded"
+        }
+      }
+    },
+    {
+      "id": "mpkMainEnc24000000000",
+      "name": "SIC - P24",
+      "source": {
+        "category": "virtual",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "buttonIndex": 0,
+        "buttonDesign": {
+          "background": {
+            "kind": "Color"
+          },
+          "foreground": {
+            "kind": "None"
+          },
+          "static_text": ""
+        },
+        "controlElementIndex": "encoder/24"
+      },
+      "mode": {
+        "maxStepSize": 0.05,
+        "minStepFactor": 1,
+        "maxStepFactor": 5
+      },
+      "target": {
+        "trackIndex": 4,
+        "fxAnchor": "focused",
+        "useSelectionGanging": false,
+        "useTrackGrouping": false,
+        "paramType": "index-manual",
+        "paramIndex": 23,
+        "seekBehavior": "Immediate",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0,
+        "mouseAction": {
+          "kind": "MoveTo",
+          "axis": "X"
+        },
+        "takeMappingSnapshot": {
+          "kind": "LastLoaded"
+        }
+      }
+    },
+    {
+      "id": "mpkMainEnc25000000000",
+      "name": "SIC - P25",
+      "source": {
+        "category": "virtual",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "buttonIndex": 0,
+        "buttonDesign": {
+          "background": {
+            "kind": "Color"
+          },
+          "foreground": {
+            "kind": "None"
+          },
+          "static_text": ""
+        },
+        "controlElementIndex": "encoder/25"
+      },
+      "mode": {
+        "maxStepSize": 0.05,
+        "minStepFactor": 1,
+        "maxStepFactor": 5
+      },
+      "target": {
+        "trackIndex": 4,
+        "fxAnchor": "focused",
+        "useSelectionGanging": false,
+        "useTrackGrouping": false,
+        "paramType": "index-manual",
+        "paramIndex": 24,
+        "seekBehavior": "Immediate",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0,
+        "mouseAction": {
+          "kind": "MoveTo",
+          "axis": "X"
+        },
+        "takeMappingSnapshot": {
+          "kind": "LastLoaded"
+        }
+      }
+    },
+    {
+      "id": "mpkMainEnc26000000000",
+      "name": "SIC - P26",
+      "source": {
+        "category": "virtual",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "buttonIndex": 0,
+        "buttonDesign": {
+          "background": {
+            "kind": "Color"
+          },
+          "foreground": {
+            "kind": "None"
+          },
+          "static_text": ""
+        },
+        "controlElementIndex": "encoder/26"
+      },
+      "mode": {
+        "maxStepSize": 0.05,
+        "minStepFactor": 1,
+        "maxStepFactor": 5
+      },
+      "target": {
+        "trackIndex": 4,
+        "fxAnchor": "focused",
+        "useSelectionGanging": false,
+        "useTrackGrouping": false,
+        "paramType": "index-manual",
+        "paramIndex": 25,
+        "seekBehavior": "Immediate",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0,
+        "mouseAction": {
+          "kind": "MoveTo",
+          "axis": "X"
+        },
+        "takeMappingSnapshot": {
+          "kind": "LastLoaded"
+        }
+      }
+    },
+    {
+      "id": "mpkMainEnc27000000000",
+      "name": "SIC - P27",
+      "source": {
+        "category": "virtual",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "buttonIndex": 0,
+        "buttonDesign": {
+          "background": {
+            "kind": "Color"
+          },
+          "foreground": {
+            "kind": "None"
+          },
+          "static_text": ""
+        },
+        "controlElementIndex": "encoder/27"
+      },
+      "mode": {
+        "maxStepSize": 0.05,
+        "minStepFactor": 1,
+        "maxStepFactor": 5
+      },
+      "target": {
+        "trackIndex": 4,
+        "fxAnchor": "focused",
+        "useSelectionGanging": false,
+        "useTrackGrouping": false,
+        "paramType": "index-manual",
+        "paramIndex": 26,
+        "seekBehavior": "Immediate",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0,
+        "mouseAction": {
+          "kind": "MoveTo",
+          "axis": "X"
+        },
+        "takeMappingSnapshot": {
+          "kind": "LastLoaded"
+        }
+      }
+    },
+    {
+      "id": "mpkMainEnc28000000000",
+      "name": "SIC - P28",
+      "source": {
+        "category": "virtual",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "buttonIndex": 0,
+        "buttonDesign": {
+          "background": {
+            "kind": "Color"
+          },
+          "foreground": {
+            "kind": "None"
+          },
+          "static_text": ""
+        },
+        "controlElementIndex": "encoder/28"
+      },
+      "mode": {
+        "maxStepSize": 0.05,
+        "minStepFactor": 1,
+        "maxStepFactor": 5
+      },
+      "target": {
+        "trackIndex": 4,
+        "fxAnchor": "focused",
+        "useSelectionGanging": false,
+        "useTrackGrouping": false,
+        "paramType": "index-manual",
+        "paramIndex": 27,
+        "seekBehavior": "Immediate",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0,
+        "mouseAction": {
+          "kind": "MoveTo",
+          "axis": "X"
+        },
+        "takeMappingSnapshot": {
+          "kind": "LastLoaded"
+        }
+      }
+    },
+    {
+      "id": "mpkMainEnc29000000000",
+      "name": "SIC - P29",
+      "source": {
+        "category": "virtual",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "buttonIndex": 0,
+        "buttonDesign": {
+          "background": {
+            "kind": "Color"
+          },
+          "foreground": {
+            "kind": "None"
+          },
+          "static_text": ""
+        },
+        "controlElementIndex": "encoder/29"
+      },
+      "mode": {
+        "maxStepSize": 0.05,
+        "minStepFactor": 1,
+        "maxStepFactor": 5
+      },
+      "target": {
+        "trackIndex": 4,
+        "fxAnchor": "focused",
+        "useSelectionGanging": false,
+        "useTrackGrouping": false,
+        "paramType": "index-manual",
+        "paramIndex": 28,
+        "seekBehavior": "Immediate",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0,
+        "mouseAction": {
+          "kind": "MoveTo",
+          "axis": "X"
+        },
+        "takeMappingSnapshot": {
+          "kind": "LastLoaded"
+        }
+      }
+    },
+    {
+      "id": "mpkMainEnc30000000000",
+      "name": "SIC - P30",
+      "source": {
+        "category": "virtual",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "buttonIndex": 0,
+        "buttonDesign": {
+          "background": {
+            "kind": "Color"
+          },
+          "foreground": {
+            "kind": "None"
+          },
+          "static_text": ""
+        },
+        "controlElementIndex": "encoder/30"
+      },
+      "mode": {
+        "maxStepSize": 0.05,
+        "minStepFactor": 1,
+        "maxStepFactor": 5
+      },
+      "target": {
+        "trackIndex": 4,
+        "fxAnchor": "focused",
+        "useSelectionGanging": false,
+        "useTrackGrouping": false,
+        "paramType": "index-manual",
+        "paramIndex": 29,
+        "seekBehavior": "Immediate",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0,
+        "mouseAction": {
+          "kind": "MoveTo",
+          "axis": "X"
+        },
+        "takeMappingSnapshot": {
+          "kind": "LastLoaded"
+        }
+      }
+    },
+    {
+      "id": "mpkMainEnc31000000000",
+      "name": "SIC - P31",
+      "source": {
+        "category": "virtual",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "buttonIndex": 0,
+        "buttonDesign": {
+          "background": {
+            "kind": "Color"
+          },
+          "foreground": {
+            "kind": "None"
+          },
+          "static_text": ""
+        },
+        "controlElementIndex": "encoder/31"
+      },
+      "mode": {
+        "maxStepSize": 0.05,
+        "minStepFactor": 1,
+        "maxStepFactor": 5
+      },
+      "target": {
+        "trackIndex": 4,
+        "fxAnchor": "focused",
+        "useSelectionGanging": false,
+        "useTrackGrouping": false,
+        "paramType": "index-manual",
+        "paramIndex": 30,
+        "seekBehavior": "Immediate",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0,
+        "mouseAction": {
+          "kind": "MoveTo",
+          "axis": "X"
+        },
+        "takeMappingSnapshot": {
+          "kind": "LastLoaded"
+        }
+      }
+    },
+    {
+      "id": "mpkMainEnc32000000000",
+      "name": "SIC - P32",
+      "source": {
+        "category": "virtual",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "buttonIndex": 0,
+        "buttonDesign": {
+          "background": {
+            "kind": "Color"
+          },
+          "foreground": {
+            "kind": "None"
+          },
+          "static_text": ""
+        },
+        "controlElementIndex": "encoder/32"
+      },
+      "mode": {
+        "maxStepSize": 0.05,
+        "minStepFactor": 1,
+        "maxStepFactor": 5
+      },
+      "target": {
+        "trackIndex": 4,
+        "fxAnchor": "focused",
+        "useSelectionGanging": false,
+        "useTrackGrouping": false,
+        "paramType": "index-manual",
+        "paramIndex": 31,
+        "seekBehavior": "Immediate",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0,
+        "mouseAction": {
+          "kind": "MoveTo",
+          "axis": "X"
+        },
+        "takeMappingSnapshot": {
+          "kind": "LastLoaded"
+        }
+      }
+    },
+    {
+      "id": "mpkMainEnc33000000000",
+      "name": "SIC - P33",
+      "source": {
+        "category": "virtual",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "buttonIndex": 0,
+        "buttonDesign": {
+          "background": {
+            "kind": "Color"
+          },
+          "foreground": {
+            "kind": "None"
+          },
+          "static_text": ""
+        },
+        "controlElementIndex": "encoder/33"
+      },
+      "mode": {
+        "maxStepSize": 0.05,
+        "minStepFactor": 1,
+        "maxStepFactor": 5
+      },
+      "target": {
+        "trackIndex": 4,
+        "fxAnchor": "focused",
+        "useSelectionGanging": false,
+        "useTrackGrouping": false,
+        "paramType": "index-manual",
+        "paramIndex": 32,
+        "seekBehavior": "Immediate",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0,
+        "mouseAction": {
+          "kind": "MoveTo",
+          "axis": "X"
+        },
+        "takeMappingSnapshot": {
+          "kind": "LastLoaded"
+        }
+      }
+    },
+    {
+      "id": "mpkMainEnc34000000000",
+      "name": "SIC - P34",
+      "source": {
+        "category": "virtual",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "buttonIndex": 0,
+        "buttonDesign": {
+          "background": {
+            "kind": "Color"
+          },
+          "foreground": {
+            "kind": "None"
+          },
+          "static_text": ""
+        },
+        "controlElementIndex": "encoder/34"
+      },
+      "mode": {
+        "maxStepSize": 0.05,
+        "minStepFactor": 1,
+        "maxStepFactor": 5
+      },
+      "target": {
+        "trackIndex": 4,
+        "fxAnchor": "focused",
+        "useSelectionGanging": false,
+        "useTrackGrouping": false,
+        "paramType": "index-manual",
+        "paramIndex": 33,
+        "seekBehavior": "Immediate",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0,
+        "mouseAction": {
+          "kind": "MoveTo",
+          "axis": "X"
+        },
+        "takeMappingSnapshot": {
+          "kind": "LastLoaded"
+        }
+      }
+    },
+    {
+      "id": "mpkMainEnc35000000000",
+      "name": "SIC - P35",
+      "source": {
+        "category": "virtual",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "buttonIndex": 0,
+        "buttonDesign": {
+          "background": {
+            "kind": "Color"
+          },
+          "foreground": {
+            "kind": "None"
+          },
+          "static_text": ""
+        },
+        "controlElementIndex": "encoder/35"
+      },
+      "mode": {
+        "maxStepSize": 0.05,
+        "minStepFactor": 1,
+        "maxStepFactor": 5
+      },
+      "target": {
+        "trackIndex": 4,
+        "fxAnchor": "focused",
+        "useSelectionGanging": false,
+        "useTrackGrouping": false,
+        "paramType": "index-manual",
+        "paramIndex": 34,
+        "seekBehavior": "Immediate",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0,
+        "mouseAction": {
+          "kind": "MoveTo",
+          "axis": "X"
+        },
+        "takeMappingSnapshot": {
+          "kind": "LastLoaded"
+        }
+      }
+    },
+    {
+      "id": "mpkMainEnc36000000000",
+      "name": "SIC - P36",
+      "source": {
+        "category": "virtual",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "buttonIndex": 0,
+        "buttonDesign": {
+          "background": {
+            "kind": "Color"
+          },
+          "foreground": {
+            "kind": "None"
+          },
+          "static_text": ""
+        },
+        "controlElementIndex": "encoder/36"
+      },
+      "mode": {
+        "maxStepSize": 0.05,
+        "minStepFactor": 1,
+        "maxStepFactor": 5
+      },
+      "target": {
+        "trackIndex": 4,
+        "fxAnchor": "focused",
+        "useSelectionGanging": false,
+        "useTrackGrouping": false,
+        "paramType": "index-manual",
+        "paramIndex": 35,
+        "seekBehavior": "Immediate",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0,
+        "mouseAction": {
+          "kind": "MoveTo",
+          "axis": "X"
+        },
+        "takeMappingSnapshot": {
+          "kind": "LastLoaded"
+        }
+      }
+    },
+    {
+      "id": "mpkMainEnc37000000000",
+      "name": "SIC - P37",
+      "source": {
+        "category": "virtual",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "buttonIndex": 0,
+        "buttonDesign": {
+          "background": {
+            "kind": "Color"
+          },
+          "foreground": {
+            "kind": "None"
+          },
+          "static_text": ""
+        },
+        "controlElementIndex": "encoder/37"
+      },
+      "mode": {
+        "maxStepSize": 0.05,
+        "minStepFactor": 1,
+        "maxStepFactor": 5
+      },
+      "target": {
+        "trackIndex": 4,
+        "fxAnchor": "focused",
+        "useSelectionGanging": false,
+        "useTrackGrouping": false,
+        "paramType": "index-manual",
+        "paramIndex": 36,
+        "seekBehavior": "Immediate",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0,
+        "mouseAction": {
+          "kind": "MoveTo",
+          "axis": "X"
+        },
+        "takeMappingSnapshot": {
+          "kind": "LastLoaded"
+        }
+      }
+    },
+    {
+      "id": "mpkMainEnc38000000000",
+      "name": "SIC - P38",
+      "source": {
+        "category": "virtual",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "buttonIndex": 0,
+        "buttonDesign": {
+          "background": {
+            "kind": "Color"
+          },
+          "foreground": {
+            "kind": "None"
+          },
+          "static_text": ""
+        },
+        "controlElementIndex": "encoder/38"
+      },
+      "mode": {
+        "maxStepSize": 0.05,
+        "minStepFactor": 1,
+        "maxStepFactor": 5
+      },
+      "target": {
+        "trackIndex": 4,
+        "fxAnchor": "focused",
+        "useSelectionGanging": false,
+        "useTrackGrouping": false,
+        "paramType": "index-manual",
+        "paramIndex": 37,
+        "seekBehavior": "Immediate",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0,
+        "mouseAction": {
+          "kind": "MoveTo",
+          "axis": "X"
+        },
+        "takeMappingSnapshot": {
+          "kind": "LastLoaded"
+        }
+      }
+    },
+    {
+      "id": "mpkMainEnc39000000000",
+      "name": "SIC - P39",
+      "source": {
+        "category": "virtual",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "buttonIndex": 0,
+        "buttonDesign": {
+          "background": {
+            "kind": "Color"
+          },
+          "foreground": {
+            "kind": "None"
+          },
+          "static_text": ""
+        },
+        "controlElementIndex": "encoder/39"
+      },
+      "mode": {
+        "maxStepSize": 0.05,
+        "minStepFactor": 1,
+        "maxStepFactor": 5
+      },
+      "target": {
+        "trackIndex": 4,
+        "fxAnchor": "focused",
+        "useSelectionGanging": false,
+        "useTrackGrouping": false,
+        "paramType": "index-manual",
+        "paramIndex": 38,
+        "seekBehavior": "Immediate",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0,
+        "mouseAction": {
+          "kind": "MoveTo",
+          "axis": "X"
+        },
+        "takeMappingSnapshot": {
+          "kind": "LastLoaded"
+        }
+      }
+    },
+    {
+      "id": "mpkMainEnc40000000000",
+      "name": "SIC - P40",
+      "source": {
+        "category": "virtual",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "buttonIndex": 0,
+        "buttonDesign": {
+          "background": {
+            "kind": "Color"
+          },
+          "foreground": {
+            "kind": "None"
+          },
+          "static_text": ""
+        },
+        "controlElementIndex": "encoder/40"
+      },
+      "mode": {
+        "maxStepSize": 0.05,
+        "minStepFactor": 1,
+        "maxStepFactor": 5
+      },
+      "target": {
+        "trackIndex": 4,
+        "fxAnchor": "focused",
+        "useSelectionGanging": false,
+        "useTrackGrouping": false,
+        "paramType": "index-manual",
+        "paramIndex": 39,
+        "seekBehavior": "Immediate",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0,
+        "mouseAction": {
+          "kind": "MoveTo",
+          "axis": "X"
+        },
+        "takeMappingSnapshot": {
+          "kind": "LastLoaded"
+        }
+      }
+    },
+    {
+      "id": "mpkMainEnc41000000000",
+      "name": "SIC - P41",
+      "source": {
+        "category": "virtual",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "buttonIndex": 0,
+        "buttonDesign": {
+          "background": {
+            "kind": "Color"
+          },
+          "foreground": {
+            "kind": "None"
+          },
+          "static_text": ""
+        },
+        "controlElementIndex": "encoder/41"
+      },
+      "mode": {
+        "maxStepSize": 0.05,
+        "minStepFactor": 1,
+        "maxStepFactor": 5
+      },
+      "target": {
+        "trackIndex": 4,
+        "fxAnchor": "focused",
+        "useSelectionGanging": false,
+        "useTrackGrouping": false,
+        "paramType": "index-manual",
+        "paramIndex": 40,
+        "seekBehavior": "Immediate",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0,
+        "mouseAction": {
+          "kind": "MoveTo",
+          "axis": "X"
+        },
+        "takeMappingSnapshot": {
+          "kind": "LastLoaded"
+        }
+      }
+    },
+    {
+      "id": "mpkMainEnc42000000000",
+      "name": "SIC - P42",
+      "source": {
+        "category": "virtual",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "buttonIndex": 0,
+        "buttonDesign": {
+          "background": {
+            "kind": "Color"
+          },
+          "foreground": {
+            "kind": "None"
+          },
+          "static_text": ""
+        },
+        "controlElementIndex": "encoder/42"
+      },
+      "mode": {
+        "maxStepSize": 0.05,
+        "minStepFactor": 1,
+        "maxStepFactor": 5
+      },
+      "target": {
+        "trackIndex": 4,
+        "fxAnchor": "focused",
+        "useSelectionGanging": false,
+        "useTrackGrouping": false,
+        "paramType": "index-manual",
+        "paramIndex": 41,
+        "seekBehavior": "Immediate",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0,
+        "mouseAction": {
+          "kind": "MoveTo",
+          "axis": "X"
+        },
+        "takeMappingSnapshot": {
+          "kind": "LastLoaded"
+        }
+      }
+    },
+    {
+      "id": "mpkMainEnc43000000000",
+      "name": "SIC - P43",
+      "source": {
+        "category": "virtual",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "buttonIndex": 0,
+        "buttonDesign": {
+          "background": {
+            "kind": "Color"
+          },
+          "foreground": {
+            "kind": "None"
+          },
+          "static_text": ""
+        },
+        "controlElementIndex": "encoder/43"
+      },
+      "mode": {
+        "maxStepSize": 0.05,
+        "minStepFactor": 1,
+        "maxStepFactor": 5
+      },
+      "target": {
+        "trackIndex": 4,
+        "fxAnchor": "focused",
+        "useSelectionGanging": false,
+        "useTrackGrouping": false,
+        "paramType": "index-manual",
+        "paramIndex": 42,
+        "seekBehavior": "Immediate",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0,
+        "mouseAction": {
+          "kind": "MoveTo",
+          "axis": "X"
+        },
+        "takeMappingSnapshot": {
+          "kind": "LastLoaded"
+        }
+      }
+    },
+    {
+      "id": "mpkMainEnc44000000000",
+      "name": "SIC - P44",
+      "source": {
+        "category": "virtual",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "buttonIndex": 0,
+        "buttonDesign": {
+          "background": {
+            "kind": "Color"
+          },
+          "foreground": {
+            "kind": "None"
+          },
+          "static_text": ""
+        },
+        "controlElementIndex": "encoder/44"
+      },
+      "mode": {
+        "maxStepSize": 0.05,
+        "minStepFactor": 1,
+        "maxStepFactor": 5
+      },
+      "target": {
+        "trackIndex": 4,
+        "fxAnchor": "focused",
+        "useSelectionGanging": false,
+        "useTrackGrouping": false,
+        "paramType": "index-manual",
+        "paramIndex": 43,
+        "seekBehavior": "Immediate",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0,
+        "mouseAction": {
+          "kind": "MoveTo",
+          "axis": "X"
+        },
+        "takeMappingSnapshot": {
+          "kind": "LastLoaded"
+        }
+      }
+    },
+    {
+      "id": "mpkMainEnc45000000000",
+      "name": "SIC - P45",
+      "source": {
+        "category": "virtual",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "buttonIndex": 0,
+        "buttonDesign": {
+          "background": {
+            "kind": "Color"
+          },
+          "foreground": {
+            "kind": "None"
+          },
+          "static_text": ""
+        },
+        "controlElementIndex": "encoder/45"
+      },
+      "mode": {
+        "maxStepSize": 0.05,
+        "minStepFactor": 1,
+        "maxStepFactor": 5
+      },
+      "target": {
+        "trackIndex": 4,
+        "fxAnchor": "focused",
+        "useSelectionGanging": false,
+        "useTrackGrouping": false,
+        "paramType": "index-manual",
+        "paramIndex": 44,
+        "seekBehavior": "Immediate",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0,
+        "mouseAction": {
+          "kind": "MoveTo",
+          "axis": "X"
+        },
+        "takeMappingSnapshot": {
+          "kind": "LastLoaded"
+        }
+      }
+    },
+    {
+      "id": "mpkMainEnc46000000000",
+      "name": "SIC - P46",
+      "source": {
+        "category": "virtual",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "buttonIndex": 0,
+        "buttonDesign": {
+          "background": {
+            "kind": "Color"
+          },
+          "foreground": {
+            "kind": "None"
+          },
+          "static_text": ""
+        },
+        "controlElementIndex": "encoder/46"
+      },
+      "mode": {
+        "maxStepSize": 0.05,
+        "minStepFactor": 1,
+        "maxStepFactor": 5
+      },
+      "target": {
+        "trackIndex": 4,
+        "fxAnchor": "focused",
+        "useSelectionGanging": false,
+        "useTrackGrouping": false,
+        "paramType": "index-manual",
+        "paramIndex": 45,
+        "seekBehavior": "Immediate",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0,
+        "mouseAction": {
+          "kind": "MoveTo",
+          "axis": "X"
+        },
+        "takeMappingSnapshot": {
+          "kind": "LastLoaded"
+        }
+      }
+    },
+    {
+      "id": "mpkMainEnc47000000000",
+      "name": "SIC - P47",
+      "source": {
+        "category": "virtual",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "buttonIndex": 0,
+        "buttonDesign": {
+          "background": {
+            "kind": "Color"
+          },
+          "foreground": {
+            "kind": "None"
+          },
+          "static_text": ""
+        },
+        "controlElementIndex": "encoder/47"
+      },
+      "mode": {
+        "maxStepSize": 0.05,
+        "minStepFactor": 1,
+        "maxStepFactor": 5
+      },
+      "target": {
+        "trackIndex": 4,
+        "fxAnchor": "focused",
+        "useSelectionGanging": false,
+        "useTrackGrouping": false,
+        "paramType": "index-manual",
+        "paramIndex": 46,
+        "seekBehavior": "Immediate",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0,
+        "mouseAction": {
+          "kind": "MoveTo",
+          "axis": "X"
+        },
+        "takeMappingSnapshot": {
+          "kind": "LastLoaded"
+        }
+      }
+    },
+    {
+      "id": "mpkMainEnc48000000000",
+      "name": "SIC - P48",
+      "source": {
+        "category": "virtual",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "buttonIndex": 0,
+        "buttonDesign": {
+          "background": {
+            "kind": "Color"
+          },
+          "foreground": {
+            "kind": "None"
+          },
+          "static_text": ""
+        },
+        "controlElementIndex": "encoder/48"
+      },
+      "mode": {
+        "maxStepSize": 0.05,
+        "minStepFactor": 1,
+        "maxStepFactor": 5
+      },
+      "target": {
+        "trackIndex": 4,
+        "fxAnchor": "focused",
+        "useSelectionGanging": false,
+        "useTrackGrouping": false,
+        "paramType": "index-manual",
+        "paramIndex": 47,
+        "seekBehavior": "Immediate",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0,
+        "mouseAction": {
+          "kind": "MoveTo",
+          "axis": "X"
+        },
+        "takeMappingSnapshot": {
+          "kind": "LastLoaded"
+        }
+      }
+    },
+    {
+      "id": "mpkMainEnc49000000000",
+      "name": "SIC - P49",
+      "source": {
+        "category": "virtual",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "buttonIndex": 0,
+        "buttonDesign": {
+          "background": {
+            "kind": "Color"
+          },
+          "foreground": {
+            "kind": "None"
+          },
+          "static_text": ""
+        },
+        "controlElementIndex": "encoder/49"
+      },
+      "mode": {
+        "maxStepSize": 0.05,
+        "minStepFactor": 1,
+        "maxStepFactor": 5
+      },
+      "target": {
+        "trackIndex": 4,
+        "fxAnchor": "focused",
+        "useSelectionGanging": false,
+        "useTrackGrouping": false,
+        "paramType": "index-manual",
+        "paramIndex": 48,
+        "seekBehavior": "Immediate",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0,
+        "mouseAction": {
+          "kind": "MoveTo",
+          "axis": "X"
+        },
+        "takeMappingSnapshot": {
+          "kind": "LastLoaded"
+        }
+      }
+    },
+    {
+      "id": "mpkMainEnc50000000000",
+      "name": "SIC - P50",
+      "source": {
+        "category": "virtual",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "buttonIndex": 0,
+        "buttonDesign": {
+          "background": {
+            "kind": "Color"
+          },
+          "foreground": {
+            "kind": "None"
+          },
+          "static_text": ""
+        },
+        "controlElementIndex": "encoder/50"
+      },
+      "mode": {
+        "maxStepSize": 0.05,
+        "minStepFactor": 1,
+        "maxStepFactor": 5
+      },
+      "target": {
+        "trackIndex": 4,
+        "fxAnchor": "focused",
+        "useSelectionGanging": false,
+        "useTrackGrouping": false,
+        "paramType": "index-manual",
+        "paramIndex": 49,
+        "seekBehavior": "Immediate",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0,
+        "mouseAction": {
+          "kind": "MoveTo",
+          "axis": "X"
+        },
+        "takeMappingSnapshot": {
+          "kind": "LastLoaded"
+        }
+      }
+    },
+    {
+      "id": "mpkMainEnc51000000000",
+      "name": "SIC - P51",
+      "source": {
+        "category": "virtual",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "buttonIndex": 0,
+        "buttonDesign": {
+          "background": {
+            "kind": "Color"
+          },
+          "foreground": {
+            "kind": "None"
+          },
+          "static_text": ""
+        },
+        "controlElementIndex": "encoder/51"
+      },
+      "mode": {
+        "maxStepSize": 0.05,
+        "minStepFactor": 1,
+        "maxStepFactor": 5
+      },
+      "target": {
+        "trackIndex": 4,
+        "fxAnchor": "focused",
+        "useSelectionGanging": false,
+        "useTrackGrouping": false,
+        "paramType": "index-manual",
+        "paramIndex": 50,
+        "seekBehavior": "Immediate",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0,
+        "mouseAction": {
+          "kind": "MoveTo",
+          "axis": "X"
+        },
+        "takeMappingSnapshot": {
+          "kind": "LastLoaded"
+        }
+      }
+    },
+    {
+      "id": "mpkMainEnc52000000000",
+      "name": "SIC - P52",
+      "source": {
+        "category": "virtual",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "buttonIndex": 0,
+        "buttonDesign": {
+          "background": {
+            "kind": "Color"
+          },
+          "foreground": {
+            "kind": "None"
+          },
+          "static_text": ""
+        },
+        "controlElementIndex": "encoder/52"
+      },
+      "mode": {
+        "maxStepSize": 0.05,
+        "minStepFactor": 1,
+        "maxStepFactor": 5
+      },
+      "target": {
+        "trackIndex": 4,
+        "fxAnchor": "focused",
+        "useSelectionGanging": false,
+        "useTrackGrouping": false,
+        "paramType": "index-manual",
+        "paramIndex": 51,
+        "seekBehavior": "Immediate",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0,
+        "mouseAction": {
+          "kind": "MoveTo",
+          "axis": "X"
+        },
+        "takeMappingSnapshot": {
+          "kind": "LastLoaded"
+        }
+      }
+    },
+    {
+      "id": "mpkMainEnc53000000000",
+      "name": "SIC - P53",
+      "source": {
+        "category": "virtual",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "buttonIndex": 0,
+        "buttonDesign": {
+          "background": {
+            "kind": "Color"
+          },
+          "foreground": {
+            "kind": "None"
+          },
+          "static_text": ""
+        },
+        "controlElementIndex": "encoder/53"
+      },
+      "mode": {
+        "maxStepSize": 0.05,
+        "minStepFactor": 1,
+        "maxStepFactor": 5
+      },
+      "target": {
+        "trackIndex": 4,
+        "fxAnchor": "focused",
+        "useSelectionGanging": false,
+        "useTrackGrouping": false,
+        "paramType": "index-manual",
+        "paramIndex": 52,
+        "seekBehavior": "Immediate",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0,
+        "mouseAction": {
+          "kind": "MoveTo",
+          "axis": "X"
+        },
+        "takeMappingSnapshot": {
+          "kind": "LastLoaded"
+        }
+      }
+    },
+    {
+      "id": "mpkMainEnc54000000000",
+      "name": "SIC - P54",
+      "source": {
+        "category": "virtual",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "buttonIndex": 0,
+        "buttonDesign": {
+          "background": {
+            "kind": "Color"
+          },
+          "foreground": {
+            "kind": "None"
+          },
+          "static_text": ""
+        },
+        "controlElementIndex": "encoder/54"
+      },
+      "mode": {
+        "maxStepSize": 0.05,
+        "minStepFactor": 1,
+        "maxStepFactor": 5
+      },
+      "target": {
+        "trackIndex": 4,
+        "fxAnchor": "focused",
+        "useSelectionGanging": false,
+        "useTrackGrouping": false,
+        "paramType": "index-manual",
+        "paramIndex": 53,
+        "seekBehavior": "Immediate",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0,
+        "mouseAction": {
+          "kind": "MoveTo",
+          "axis": "X"
+        },
+        "takeMappingSnapshot": {
+          "kind": "LastLoaded"
+        }
+      }
+    },
+    {
+      "id": "mpkMainEnc55000000000",
+      "name": "SIC - P55",
+      "source": {
+        "category": "virtual",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "buttonIndex": 0,
+        "buttonDesign": {
+          "background": {
+            "kind": "Color"
+          },
+          "foreground": {
+            "kind": "None"
+          },
+          "static_text": ""
+        },
+        "controlElementIndex": "encoder/55"
+      },
+      "mode": {
+        "maxStepSize": 0.05,
+        "minStepFactor": 1,
+        "maxStepFactor": 5
+      },
+      "target": {
+        "trackIndex": 4,
+        "fxAnchor": "focused",
+        "useSelectionGanging": false,
+        "useTrackGrouping": false,
+        "paramType": "index-manual",
+        "paramIndex": 54,
+        "seekBehavior": "Immediate",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0,
+        "mouseAction": {
+          "kind": "MoveTo",
+          "axis": "X"
+        },
+        "takeMappingSnapshot": {
+          "kind": "LastLoaded"
+        }
+      }
+    },
+    {
+      "id": "mpkMainEnc56000000000",
+      "name": "SIC - P56",
+      "source": {
+        "category": "virtual",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "buttonIndex": 0,
+        "buttonDesign": {
+          "background": {
+            "kind": "Color"
+          },
+          "foreground": {
+            "kind": "None"
+          },
+          "static_text": ""
+        },
+        "controlElementIndex": "encoder/56"
+      },
+      "mode": {
+        "maxStepSize": 0.05,
+        "minStepFactor": 1,
+        "maxStepFactor": 5
+      },
+      "target": {
+        "trackIndex": 4,
+        "fxAnchor": "focused",
+        "useSelectionGanging": false,
+        "useTrackGrouping": false,
+        "paramType": "index-manual",
+        "paramIndex": 55,
+        "seekBehavior": "Immediate",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0,
+        "mouseAction": {
+          "kind": "MoveTo",
+          "axis": "X"
+        },
+        "takeMappingSnapshot": {
+          "kind": "LastLoaded"
+        }
+      }
+    },
+    {
+      "id": "mpkMainEnc57000000000",
+      "name": "SIC - P57",
+      "source": {
+        "category": "virtual",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "buttonIndex": 0,
+        "buttonDesign": {
+          "background": {
+            "kind": "Color"
+          },
+          "foreground": {
+            "kind": "None"
+          },
+          "static_text": ""
+        },
+        "controlElementIndex": "encoder/57"
+      },
+      "mode": {
+        "maxStepSize": 0.05,
+        "minStepFactor": 1,
+        "maxStepFactor": 5
+      },
+      "target": {
+        "trackIndex": 4,
+        "fxAnchor": "focused",
+        "useSelectionGanging": false,
+        "useTrackGrouping": false,
+        "paramType": "index-manual",
+        "paramIndex": 56,
+        "seekBehavior": "Immediate",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0,
+        "mouseAction": {
+          "kind": "MoveTo",
+          "axis": "X"
+        },
+        "takeMappingSnapshot": {
+          "kind": "LastLoaded"
+        }
+      }
+    },
+    {
+      "id": "mpkMainEnc58000000000",
+      "name": "SIC - P58",
+      "source": {
+        "category": "virtual",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "buttonIndex": 0,
+        "buttonDesign": {
+          "background": {
+            "kind": "Color"
+          },
+          "foreground": {
+            "kind": "None"
+          },
+          "static_text": ""
+        },
+        "controlElementIndex": "encoder/58"
+      },
+      "mode": {
+        "maxStepSize": 0.05,
+        "minStepFactor": 1,
+        "maxStepFactor": 5
+      },
+      "target": {
+        "trackIndex": 4,
+        "fxAnchor": "focused",
+        "useSelectionGanging": false,
+        "useTrackGrouping": false,
+        "paramType": "index-manual",
+        "paramIndex": 57,
+        "seekBehavior": "Immediate",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0,
+        "mouseAction": {
+          "kind": "MoveTo",
+          "axis": "X"
+        },
+        "takeMappingSnapshot": {
+          "kind": "LastLoaded"
+        }
+      }
+    },
+    {
+      "id": "mpkMainEnc59000000000",
+      "name": "SIC - P59",
+      "source": {
+        "category": "virtual",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "buttonIndex": 0,
+        "buttonDesign": {
+          "background": {
+            "kind": "Color"
+          },
+          "foreground": {
+            "kind": "None"
+          },
+          "static_text": ""
+        },
+        "controlElementIndex": "encoder/59"
+      },
+      "mode": {
+        "maxStepSize": 0.05,
+        "minStepFactor": 1,
+        "maxStepFactor": 5
+      },
+      "target": {
+        "trackIndex": 4,
+        "fxAnchor": "focused",
+        "useSelectionGanging": false,
+        "useTrackGrouping": false,
+        "paramType": "index-manual",
+        "paramIndex": 58,
+        "seekBehavior": "Immediate",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0,
+        "mouseAction": {
+          "kind": "MoveTo",
+          "axis": "X"
+        },
+        "takeMappingSnapshot": {
+          "kind": "LastLoaded"
+        }
+      }
+    },
+    {
+      "id": "mpkMainEnc60000000000",
+      "name": "SIC - P60",
+      "source": {
+        "category": "virtual",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "buttonIndex": 0,
+        "buttonDesign": {
+          "background": {
+            "kind": "Color"
+          },
+          "foreground": {
+            "kind": "None"
+          },
+          "static_text": ""
+        },
+        "controlElementIndex": "encoder/60"
+      },
+      "mode": {
+        "maxStepSize": 0.05,
+        "minStepFactor": 1,
+        "maxStepFactor": 5
+      },
+      "target": {
+        "trackIndex": 4,
+        "fxAnchor": "focused",
+        "useSelectionGanging": false,
+        "useTrackGrouping": false,
+        "paramType": "index-manual",
+        "paramIndex": 59,
+        "seekBehavior": "Immediate",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0,
+        "mouseAction": {
+          "kind": "MoveTo",
+          "axis": "X"
+        },
+        "takeMappingSnapshot": {
+          "kind": "LastLoaded"
+        }
+      }
+    },
+    {
+      "id": "mpkMainEnc61000000000",
+      "name": "SIC - P61",
+      "source": {
+        "category": "virtual",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "buttonIndex": 0,
+        "buttonDesign": {
+          "background": {
+            "kind": "Color"
+          },
+          "foreground": {
+            "kind": "None"
+          },
+          "static_text": ""
+        },
+        "controlElementIndex": "encoder/61"
+      },
+      "mode": {
+        "maxStepSize": 0.05,
+        "minStepFactor": 1,
+        "maxStepFactor": 5
+      },
+      "target": {
+        "trackIndex": 4,
+        "fxAnchor": "focused",
+        "useSelectionGanging": false,
+        "useTrackGrouping": false,
+        "paramType": "index-manual",
+        "paramIndex": 60,
+        "seekBehavior": "Immediate",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0,
+        "mouseAction": {
+          "kind": "MoveTo",
+          "axis": "X"
+        },
+        "takeMappingSnapshot": {
+          "kind": "LastLoaded"
+        }
+      }
+    },
+    {
+      "id": "mpkMainEnc62000000000",
+      "name": "SIC - P62",
+      "source": {
+        "category": "virtual",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "buttonIndex": 0,
+        "buttonDesign": {
+          "background": {
+            "kind": "Color"
+          },
+          "foreground": {
+            "kind": "None"
+          },
+          "static_text": ""
+        },
+        "controlElementIndex": "encoder/62"
+      },
+      "mode": {
+        "maxStepSize": 0.05,
+        "minStepFactor": 1,
+        "maxStepFactor": 5
+      },
+      "target": {
+        "trackIndex": 4,
+        "fxAnchor": "focused",
+        "useSelectionGanging": false,
+        "useTrackGrouping": false,
+        "paramType": "index-manual",
+        "paramIndex": 61,
+        "seekBehavior": "Immediate",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0,
+        "mouseAction": {
+          "kind": "MoveTo",
+          "axis": "X"
+        },
+        "takeMappingSnapshot": {
+          "kind": "LastLoaded"
+        }
+      }
+    },
+    {
+      "id": "mpkMainEnc63000000000",
+      "name": "SIC - P63",
+      "source": {
+        "category": "virtual",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "buttonIndex": 0,
+        "buttonDesign": {
+          "background": {
+            "kind": "Color"
+          },
+          "foreground": {
+            "kind": "None"
+          },
+          "static_text": ""
+        },
+        "controlElementIndex": "encoder/63"
+      },
+      "mode": {
+        "maxStepSize": 0.05,
+        "minStepFactor": 1,
+        "maxStepFactor": 5
+      },
+      "target": {
+        "trackIndex": 4,
+        "fxAnchor": "focused",
+        "useSelectionGanging": false,
+        "useTrackGrouping": false,
+        "paramType": "index-manual",
+        "paramIndex": 62,
+        "seekBehavior": "Immediate",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0,
+        "mouseAction": {
+          "kind": "MoveTo",
+          "axis": "X"
+        },
+        "takeMappingSnapshot": {
+          "kind": "LastLoaded"
+        }
+      }
+    },
+    {
+      "id": "mpkMainEnc64000000000",
+      "name": "SIC - P64",
+      "source": {
+        "category": "virtual",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "buttonIndex": 0,
+        "buttonDesign": {
+          "background": {
+            "kind": "Color"
+          },
+          "foreground": {
+            "kind": "None"
+          },
+          "static_text": ""
+        },
+        "controlElementIndex": "encoder/64"
+      },
+      "mode": {
+        "maxStepSize": 0.05,
+        "minStepFactor": 1,
+        "maxStepFactor": 5
+      },
+      "target": {
+        "trackIndex": 4,
+        "fxAnchor": "focused",
+        "useSelectionGanging": false,
+        "useTrackGrouping": false,
+        "paramType": "index-manual",
+        "paramIndex": 63,
+        "seekBehavior": "Immediate",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0,
+        "mouseAction": {
+          "kind": "MoveTo",
+          "axis": "X"
+        },
+        "takeMappingSnapshot": {
+          "kind": "LastLoaded"
+        }
+      }
+    },
+    {
+      "id": "mpkPage01BuLed000000",
+      "name": "Pad 1 LED in CC mode",
+      "controlIsEnabled": false,
+      "source": {
+        "category": "virtual",
+        "controlElementType": "Button",
+        "controlElementIndex": "button/1",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "buttonIndex": 0,
+        "buttonDesign": {
+          "background": {
+            "kind": "Color"
+          },
+          "foreground": {
+            "kind": "None"
+          },
+          "static_text": ""
+        }
+      },
+      "mode": {
+        "eelFeedbackTransformation": "x = 5/127",
+        "maxStepSize": 0.05,
+        "minStepFactor": 1,
+        "maxStepFactor": 5
+      },
+      "target": {
+        "type": 63,
+        "fxAnchor": "id",
+        "useSelectionGanging": false,
+        "useTrackGrouping": false,
+        "seekBehavior": "Immediate",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0,
+        "mouseAction": {
+          "kind": "MoveTo",
+          "axis": "X"
+        },
+        "takeMappingSnapshot": {
+          "kind": "LastLoaded"
+        }
+      }
+    },
+    {
+      "id": "mpkPage02BuLed000000",
+      "name": "Pad 2 LED in CC mode",
+      "controlIsEnabled": false,
+      "source": {
+        "category": "virtual",
+        "controlElementType": "Button",
+        "controlElementIndex": "button/2",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "buttonIndex": 0,
+        "buttonDesign": {
+          "background": {
+            "kind": "Color"
+          },
+          "foreground": {
+            "kind": "None"
+          },
+          "static_text": ""
+        }
+      },
+      "mode": {
+        "eelFeedbackTransformation": "x = 5/127",
+        "maxStepSize": 0.05,
+        "minStepFactor": 1,
+        "maxStepFactor": 5
+      },
+      "target": {
+        "type": 63,
+        "fxAnchor": "id",
+        "useSelectionGanging": false,
+        "useTrackGrouping": false,
+        "seekBehavior": "Immediate",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0,
+        "mouseAction": {
+          "kind": "MoveTo",
+          "axis": "X"
+        },
+        "takeMappingSnapshot": {
+          "kind": "LastLoaded"
+        }
+      }
+    },
+    {
+      "id": "mpkPage03BuLed000000",
+      "name": "Pad 3 LED in CC mode",
+      "controlIsEnabled": false,
+      "source": {
+        "category": "virtual",
+        "controlElementType": "Button",
+        "controlElementIndex": "button/3",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "buttonIndex": 0,
+        "buttonDesign": {
+          "background": {
+            "kind": "Color"
+          },
+          "foreground": {
+            "kind": "None"
+          },
+          "static_text": ""
+        }
+      },
+      "mode": {
+        "eelFeedbackTransformation": "x = 5/127",
+        "maxStepSize": 0.05,
+        "minStepFactor": 1,
+        "maxStepFactor": 5
+      },
+      "target": {
+        "type": 63,
+        "fxAnchor": "id",
+        "useSelectionGanging": false,
+        "useTrackGrouping": false,
+        "seekBehavior": "Immediate",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0,
+        "mouseAction": {
+          "kind": "MoveTo",
+          "axis": "X"
+        },
+        "takeMappingSnapshot": {
+          "kind": "LastLoaded"
+        }
+      }
+    },
+    {
+      "id": "mpkPage04BuLed000000",
+      "name": "Pad 4 LED in CC mode",
+      "controlIsEnabled": false,
+      "source": {
+        "category": "virtual",
+        "controlElementType": "Button",
+        "controlElementIndex": "button/4",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "buttonIndex": 0,
+        "buttonDesign": {
+          "background": {
+            "kind": "Color"
+          },
+          "foreground": {
+            "kind": "None"
+          },
+          "static_text": ""
+        }
+      },
+      "mode": {
+        "eelFeedbackTransformation": "x = 5/127",
+        "maxStepSize": 0.05,
+        "minStepFactor": 1,
+        "maxStepFactor": 5
+      },
+      "target": {
+        "type": 63,
+        "fxAnchor": "id",
+        "useSelectionGanging": false,
+        "useTrackGrouping": false,
+        "seekBehavior": "Immediate",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0,
+        "mouseAction": {
+          "kind": "MoveTo",
+          "axis": "X"
+        },
+        "takeMappingSnapshot": {
+          "kind": "LastLoaded"
+        }
+      }
+    },
+    {
+      "id": "mpkPage05BuLed000000",
+      "name": "Pad 5 LED in CC mode",
+      "controlIsEnabled": false,
+      "source": {
+        "category": "virtual",
+        "controlElementType": "Button",
+        "controlElementIndex": "button/5",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "buttonIndex": 0,
+        "buttonDesign": {
+          "background": {
+            "kind": "Color"
+          },
+          "foreground": {
+            "kind": "None"
+          },
+          "static_text": ""
+        }
+      },
+      "mode": {
+        "eelFeedbackTransformation": "x = 5/127",
+        "maxStepSize": 0.05,
+        "minStepFactor": 1,
+        "maxStepFactor": 5
+      },
+      "target": {
+        "type": 63,
+        "fxAnchor": "id",
+        "useSelectionGanging": false,
+        "useTrackGrouping": false,
+        "seekBehavior": "Immediate",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0,
+        "mouseAction": {
+          "kind": "MoveTo",
+          "axis": "X"
+        },
+        "takeMappingSnapshot": {
+          "kind": "LastLoaded"
+        }
+      }
+    },
+    {
+      "id": "mpkPage06BuLed000000",
+      "name": "Pad 6 LED in CC mode",
+      "controlIsEnabled": false,
+      "source": {
+        "category": "virtual",
+        "controlElementType": "Button",
+        "controlElementIndex": "button/6",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "buttonIndex": 0,
+        "buttonDesign": {
+          "background": {
+            "kind": "Color"
+          },
+          "foreground": {
+            "kind": "None"
+          },
+          "static_text": ""
+        }
+      },
+      "mode": {
+        "eelFeedbackTransformation": "x = 5/127",
+        "maxStepSize": 0.05,
+        "minStepFactor": 1,
+        "maxStepFactor": 5
+      },
+      "target": {
+        "type": 63,
+        "fxAnchor": "id",
+        "useSelectionGanging": false,
+        "useTrackGrouping": false,
+        "seekBehavior": "Immediate",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0,
+        "mouseAction": {
+          "kind": "MoveTo",
+          "axis": "X"
+        },
+        "takeMappingSnapshot": {
+          "kind": "LastLoaded"
+        }
+      }
+    },
+    {
+      "id": "mpkPage07BuLed000000",
+      "name": "Pad 7 LED in CC mode",
+      "controlIsEnabled": false,
+      "source": {
+        "category": "virtual",
+        "controlElementType": "Button",
+        "controlElementIndex": "button/7",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "buttonIndex": 0,
+        "buttonDesign": {
+          "background": {
+            "kind": "Color"
+          },
+          "foreground": {
+            "kind": "None"
+          },
+          "static_text": ""
+        }
+      },
+      "mode": {
+        "eelFeedbackTransformation": "x = 5/127",
+        "maxStepSize": 0.05,
+        "minStepFactor": 1,
+        "maxStepFactor": 5
+      },
+      "target": {
+        "type": 63,
+        "fxAnchor": "id",
+        "useSelectionGanging": false,
+        "useTrackGrouping": false,
+        "seekBehavior": "Immediate",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0,
+        "mouseAction": {
+          "kind": "MoveTo",
+          "axis": "X"
+        },
+        "takeMappingSnapshot": {
+          "kind": "LastLoaded"
+        }
+      }
+    },
+    {
+      "id": "mpkPage08BuLed000000",
+      "name": "Pad 8 LED in CC mode",
+      "controlIsEnabled": false,
+      "source": {
+        "category": "virtual",
+        "controlElementType": "Button",
+        "controlElementIndex": "button/8",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "buttonIndex": 0,
+        "buttonDesign": {
+          "background": {
+            "kind": "Color"
+          },
+          "foreground": {
+            "kind": "None"
+          },
+          "static_text": ""
+        }
+      },
+      "mode": {
+        "eelFeedbackTransformation": "x = 5/127",
+        "maxStepSize": 0.05,
+        "minStepFactor": 1,
+        "maxStepFactor": 5
+      },
+      "target": {
+        "type": 63,
+        "fxAnchor": "id",
+        "useSelectionGanging": false,
+        "useTrackGrouping": false,
+        "seekBehavior": "Immediate",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0,
+        "mouseAction": {
+          "kind": "MoveTo",
+          "axis": "X"
+        },
+        "takeMappingSnapshot": {
+          "kind": "LastLoaded"
+        }
+      }
+    },
+    {
+      "id": "mpkPage09BuLed000000",
+      "name": "Pad 9 LED in CC mode",
+      "controlIsEnabled": false,
+      "source": {
+        "category": "virtual",
+        "controlElementType": "Button",
+        "controlElementIndex": "button/9",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "buttonIndex": 0,
+        "buttonDesign": {
+          "background": {
+            "kind": "Color"
+          },
+          "foreground": {
+            "kind": "None"
+          },
+          "static_text": ""
+        }
+      },
+      "mode": {
+        "eelFeedbackTransformation": "x = 5/127",
+        "maxStepSize": 0.05,
+        "minStepFactor": 1,
+        "maxStepFactor": 5
+      },
+      "target": {
+        "type": 63,
+        "fxAnchor": "id",
+        "useSelectionGanging": false,
+        "useTrackGrouping": false,
+        "seekBehavior": "Immediate",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0,
+        "mouseAction": {
+          "kind": "MoveTo",
+          "axis": "X"
+        },
+        "takeMappingSnapshot": {
+          "kind": "LastLoaded"
+        }
+      }
+    },
+    {
+      "id": "mpkPage10BuLed000000",
+      "name": "Pad 10 LED in CC mode",
+      "controlIsEnabled": false,
+      "source": {
+        "category": "virtual",
+        "controlElementType": "Button",
+        "controlElementIndex": "button/10",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "buttonIndex": 0,
+        "buttonDesign": {
+          "background": {
+            "kind": "Color"
+          },
+          "foreground": {
+            "kind": "None"
+          },
+          "static_text": ""
+        }
+      },
+      "mode": {
+        "eelFeedbackTransformation": "x = 5/127",
+        "maxStepSize": 0.05,
+        "minStepFactor": 1,
+        "maxStepFactor": 5
+      },
+      "target": {
+        "type": 63,
+        "fxAnchor": "id",
+        "useSelectionGanging": false,
+        "useTrackGrouping": false,
+        "seekBehavior": "Immediate",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0,
+        "mouseAction": {
+          "kind": "MoveTo",
+          "axis": "X"
+        },
+        "takeMappingSnapshot": {
+          "kind": "LastLoaded"
+        }
+      }
+    },
+    {
+      "id": "mpkPage11BuLed000000",
+      "name": "Pad 11 LED in CC mode",
+      "controlIsEnabled": false,
+      "source": {
+        "category": "virtual",
+        "controlElementType": "Button",
+        "controlElementIndex": "button/11",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "buttonIndex": 0,
+        "buttonDesign": {
+          "background": {
+            "kind": "Color"
+          },
+          "foreground": {
+            "kind": "None"
+          },
+          "static_text": ""
+        }
+      },
+      "mode": {
+        "eelFeedbackTransformation": "x = 5/127",
+        "maxStepSize": 0.05,
+        "minStepFactor": 1,
+        "maxStepFactor": 5
+      },
+      "target": {
+        "type": 63,
+        "fxAnchor": "id",
+        "useSelectionGanging": false,
+        "useTrackGrouping": false,
+        "seekBehavior": "Immediate",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0,
+        "mouseAction": {
+          "kind": "MoveTo",
+          "axis": "X"
+        },
+        "takeMappingSnapshot": {
+          "kind": "LastLoaded"
+        }
+      }
+    },
+    {
+      "id": "mpkPage12BuLed000000",
+      "name": "Pad 12 LED in CC mode",
+      "controlIsEnabled": false,
+      "source": {
+        "category": "virtual",
+        "controlElementType": "Button",
+        "controlElementIndex": "button/12",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "buttonIndex": 0,
+        "buttonDesign": {
+          "background": {
+            "kind": "Color"
+          },
+          "foreground": {
+            "kind": "None"
+          },
+          "static_text": ""
+        }
+      },
+      "mode": {
+        "eelFeedbackTransformation": "x = 5/127",
+        "maxStepSize": 0.05,
+        "minStepFactor": 1,
+        "maxStepFactor": 5
+      },
+      "target": {
+        "type": 63,
+        "fxAnchor": "id",
+        "useSelectionGanging": false,
+        "useTrackGrouping": false,
+        "seekBehavior": "Immediate",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0,
+        "mouseAction": {
+          "kind": "MoveTo",
+          "axis": "X"
+        },
+        "takeMappingSnapshot": {
+          "kind": "LastLoaded"
+        }
+      }
+    },
+    {
+      "id": "mpkPage13BuLed000000",
+      "name": "Pad 13 LED in CC mode",
+      "controlIsEnabled": false,
+      "source": {
+        "category": "virtual",
+        "controlElementType": "Button",
+        "controlElementIndex": "button/13",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "buttonIndex": 0,
+        "buttonDesign": {
+          "background": {
+            "kind": "Color"
+          },
+          "foreground": {
+            "kind": "None"
+          },
+          "static_text": ""
+        }
+      },
+      "mode": {
+        "eelFeedbackTransformation": "x = 5/127",
+        "maxStepSize": 0.05,
+        "minStepFactor": 1,
+        "maxStepFactor": 5
+      },
+      "target": {
+        "type": 63,
+        "fxAnchor": "id",
+        "useSelectionGanging": false,
+        "useTrackGrouping": false,
+        "seekBehavior": "Immediate",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0,
+        "mouseAction": {
+          "kind": "MoveTo",
+          "axis": "X"
+        },
+        "takeMappingSnapshot": {
+          "kind": "LastLoaded"
+        }
+      }
+    },
+    {
+      "id": "mpkPage14BuLed000000",
+      "name": "Pad 14 LED in CC mode",
+      "controlIsEnabled": false,
+      "source": {
+        "category": "virtual",
+        "controlElementType": "Button",
+        "controlElementIndex": "button/14",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "buttonIndex": 0,
+        "buttonDesign": {
+          "background": {
+            "kind": "Color"
+          },
+          "foreground": {
+            "kind": "None"
+          },
+          "static_text": ""
+        }
+      },
+      "mode": {
+        "eelFeedbackTransformation": "x = 5/127",
+        "maxStepSize": 0.05,
+        "minStepFactor": 1,
+        "maxStepFactor": 5
+      },
+      "target": {
+        "type": 63,
+        "fxAnchor": "id",
+        "useSelectionGanging": false,
+        "useTrackGrouping": false,
+        "seekBehavior": "Immediate",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0,
+        "mouseAction": {
+          "kind": "MoveTo",
+          "axis": "X"
+        },
+        "takeMappingSnapshot": {
+          "kind": "LastLoaded"
+        }
+      }
+    },
+    {
+      "id": "mpkPage15BuLed000000",
+      "name": "Pad 15 LED in CC mode",
+      "controlIsEnabled": false,
+      "source": {
+        "category": "virtual",
+        "controlElementType": "Button",
+        "controlElementIndex": "button/15",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "buttonIndex": 0,
+        "buttonDesign": {
+          "background": {
+            "kind": "Color"
+          },
+          "foreground": {
+            "kind": "None"
+          },
+          "static_text": ""
+        }
+      },
+      "mode": {
+        "eelFeedbackTransformation": "x = 5/127",
+        "maxStepSize": 0.05,
+        "minStepFactor": 1,
+        "maxStepFactor": 5
+      },
+      "target": {
+        "type": 63,
+        "fxAnchor": "id",
+        "useSelectionGanging": false,
+        "useTrackGrouping": false,
+        "seekBehavior": "Immediate",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0,
+        "mouseAction": {
+          "kind": "MoveTo",
+          "axis": "X"
+        },
+        "takeMappingSnapshot": {
+          "kind": "LastLoaded"
+        }
+      }
+    },
+    {
+      "id": "mpkPage16BuLed000000",
+      "name": "Pad 16 LED in CC mode",
+      "controlIsEnabled": false,
+      "source": {
+        "category": "virtual",
+        "controlElementType": "Button",
+        "controlElementIndex": "button/16",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "buttonIndex": 0,
+        "buttonDesign": {
+          "background": {
+            "kind": "Color"
+          },
+          "foreground": {
+            "kind": "None"
+          },
+          "static_text": ""
+        }
+      },
+      "mode": {
+        "eelFeedbackTransformation": "x = 5/127",
+        "maxStepSize": 0.05,
+        "minStepFactor": 1,
+        "maxStepFactor": 5
+      },
+      "target": {
+        "type": 63,
+        "fxAnchor": "id",
+        "useSelectionGanging": false,
+        "useTrackGrouping": false,
+        "seekBehavior": "Immediate",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0,
+        "mouseAction": {
+          "kind": "MoveTo",
+          "axis": "X"
+        },
+        "takeMappingSnapshot": {
+          "kind": "LastLoaded"
+        }
+      }
+    },
+    {
+      "id": "mpkPage01PaLed000000",
+      "name": "Pad 1 LED in Notes mode",
+      "controlIsEnabled": false,
+      "source": {
+        "category": "virtual",
+        "controlElementIndex": "pad/1",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "buttonIndex": 0,
+        "buttonDesign": {
+          "background": {
+            "kind": "Color"
+          },
+          "foreground": {
+            "kind": "None"
+          },
+          "static_text": ""
+        }
+      },
+      "mode": {
+        "eelFeedbackTransformation": "x = 21/127",
+        "maxStepSize": 0.05,
+        "minStepFactor": 1,
+        "maxStepFactor": 5
+      },
+      "target": {
+        "type": 63,
+        "fxAnchor": "id",
+        "useSelectionGanging": false,
+        "useTrackGrouping": false,
+        "seekBehavior": "Immediate",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0,
+        "mouseAction": {
+          "kind": "MoveTo",
+          "axis": "X"
+        },
+        "takeMappingSnapshot": {
+          "kind": "LastLoaded"
+        }
+      }
+    },
+    {
+      "id": "mpkPage02PaLed000000",
+      "name": "Pad 2 LED in Notes mode",
+      "controlIsEnabled": false,
+      "source": {
+        "category": "virtual",
+        "controlElementIndex": "pad/2",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "buttonIndex": 0,
+        "buttonDesign": {
+          "background": {
+            "kind": "Color"
+          },
+          "foreground": {
+            "kind": "None"
+          },
+          "static_text": ""
+        }
+      },
+      "mode": {
+        "eelFeedbackTransformation": "x = 21/127",
+        "maxStepSize": 0.05,
+        "minStepFactor": 1,
+        "maxStepFactor": 5
+      },
+      "target": {
+        "type": 63,
+        "fxAnchor": "id",
+        "useSelectionGanging": false,
+        "useTrackGrouping": false,
+        "seekBehavior": "Immediate",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0,
+        "mouseAction": {
+          "kind": "MoveTo",
+          "axis": "X"
+        },
+        "takeMappingSnapshot": {
+          "kind": "LastLoaded"
+        }
+      }
+    },
+    {
+      "id": "mpkPage03PaLed000000",
+      "name": "Pad 3 LED in Notes mode",
+      "controlIsEnabled": false,
+      "source": {
+        "category": "virtual",
+        "controlElementIndex": "pad/3",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "buttonIndex": 0,
+        "buttonDesign": {
+          "background": {
+            "kind": "Color"
+          },
+          "foreground": {
+            "kind": "None"
+          },
+          "static_text": ""
+        }
+      },
+      "mode": {
+        "eelFeedbackTransformation": "x = 21/127",
+        "maxStepSize": 0.05,
+        "minStepFactor": 1,
+        "maxStepFactor": 5
+      },
+      "target": {
+        "type": 63,
+        "fxAnchor": "id",
+        "useSelectionGanging": false,
+        "useTrackGrouping": false,
+        "seekBehavior": "Immediate",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0,
+        "mouseAction": {
+          "kind": "MoveTo",
+          "axis": "X"
+        },
+        "takeMappingSnapshot": {
+          "kind": "LastLoaded"
+        }
+      }
+    },
+    {
+      "id": "mpkPage04PaLed000000",
+      "name": "Pad 4 LED in Notes mode",
+      "controlIsEnabled": false,
+      "source": {
+        "category": "virtual",
+        "controlElementIndex": "pad/4",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "buttonIndex": 0,
+        "buttonDesign": {
+          "background": {
+            "kind": "Color"
+          },
+          "foreground": {
+            "kind": "None"
+          },
+          "static_text": ""
+        }
+      },
+      "mode": {
+        "eelFeedbackTransformation": "x = 21/127",
+        "maxStepSize": 0.05,
+        "minStepFactor": 1,
+        "maxStepFactor": 5
+      },
+      "target": {
+        "type": 63,
+        "fxAnchor": "id",
+        "useSelectionGanging": false,
+        "useTrackGrouping": false,
+        "seekBehavior": "Immediate",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0,
+        "mouseAction": {
+          "kind": "MoveTo",
+          "axis": "X"
+        },
+        "takeMappingSnapshot": {
+          "kind": "LastLoaded"
+        }
+      }
+    },
+    {
+      "id": "mpkPage05PaLed000000",
+      "name": "Pad 5 LED in Notes mode",
+      "controlIsEnabled": false,
+      "source": {
+        "category": "virtual",
+        "controlElementIndex": "pad/5",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "buttonIndex": 0,
+        "buttonDesign": {
+          "background": {
+            "kind": "Color"
+          },
+          "foreground": {
+            "kind": "None"
+          },
+          "static_text": ""
+        }
+      },
+      "mode": {
+        "eelFeedbackTransformation": "x = 21/127",
+        "maxStepSize": 0.05,
+        "minStepFactor": 1,
+        "maxStepFactor": 5
+      },
+      "target": {
+        "type": 63,
+        "fxAnchor": "id",
+        "useSelectionGanging": false,
+        "useTrackGrouping": false,
+        "seekBehavior": "Immediate",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0,
+        "mouseAction": {
+          "kind": "MoveTo",
+          "axis": "X"
+        },
+        "takeMappingSnapshot": {
+          "kind": "LastLoaded"
+        }
+      }
+    },
+    {
+      "id": "mpkPage06PaLed000000",
+      "name": "Pad 6 LED in Notes mode",
+      "controlIsEnabled": false,
+      "source": {
+        "category": "virtual",
+        "controlElementIndex": "pad/6",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "buttonIndex": 0,
+        "buttonDesign": {
+          "background": {
+            "kind": "Color"
+          },
+          "foreground": {
+            "kind": "None"
+          },
+          "static_text": ""
+        }
+      },
+      "mode": {
+        "eelFeedbackTransformation": "x = 21/127",
+        "maxStepSize": 0.05,
+        "minStepFactor": 1,
+        "maxStepFactor": 5
+      },
+      "target": {
+        "type": 63,
+        "fxAnchor": "id",
+        "useSelectionGanging": false,
+        "useTrackGrouping": false,
+        "seekBehavior": "Immediate",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0,
+        "mouseAction": {
+          "kind": "MoveTo",
+          "axis": "X"
+        },
+        "takeMappingSnapshot": {
+          "kind": "LastLoaded"
+        }
+      }
+    },
+    {
+      "id": "mpkPage07PaLed000000",
+      "name": "Pad 7 LED in Notes mode",
+      "controlIsEnabled": false,
+      "source": {
+        "category": "virtual",
+        "controlElementIndex": "pad/7",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "buttonIndex": 0,
+        "buttonDesign": {
+          "background": {
+            "kind": "Color"
+          },
+          "foreground": {
+            "kind": "None"
+          },
+          "static_text": ""
+        }
+      },
+      "mode": {
+        "eelFeedbackTransformation": "x = 21/127",
+        "maxStepSize": 0.05,
+        "minStepFactor": 1,
+        "maxStepFactor": 5
+      },
+      "target": {
+        "type": 63,
+        "fxAnchor": "id",
+        "useSelectionGanging": false,
+        "useTrackGrouping": false,
+        "seekBehavior": "Immediate",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0,
+        "mouseAction": {
+          "kind": "MoveTo",
+          "axis": "X"
+        },
+        "takeMappingSnapshot": {
+          "kind": "LastLoaded"
+        }
+      }
+    },
+    {
+      "id": "mpkPage08PaLed000000",
+      "name": "Pad 8 LED in Notes mode",
+      "controlIsEnabled": false,
+      "source": {
+        "category": "virtual",
+        "controlElementIndex": "pad/8",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "buttonIndex": 0,
+        "buttonDesign": {
+          "background": {
+            "kind": "Color"
+          },
+          "foreground": {
+            "kind": "None"
+          },
+          "static_text": ""
+        }
+      },
+      "mode": {
+        "eelFeedbackTransformation": "x = 21/127",
+        "maxStepSize": 0.05,
+        "minStepFactor": 1,
+        "maxStepFactor": 5
+      },
+      "target": {
+        "type": 63,
+        "fxAnchor": "id",
+        "useSelectionGanging": false,
+        "useTrackGrouping": false,
+        "seekBehavior": "Immediate",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0,
+        "mouseAction": {
+          "kind": "MoveTo",
+          "axis": "X"
+        },
+        "takeMappingSnapshot": {
+          "kind": "LastLoaded"
+        }
+      }
+    },
+    {
+      "id": "mpkPage09PaLed000000",
+      "name": "Pad 9 LED in Notes mode",
+      "controlIsEnabled": false,
+      "source": {
+        "category": "virtual",
+        "controlElementIndex": "pad/9",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "buttonIndex": 0,
+        "buttonDesign": {
+          "background": {
+            "kind": "Color"
+          },
+          "foreground": {
+            "kind": "None"
+          },
+          "static_text": ""
+        }
+      },
+      "mode": {
+        "eelFeedbackTransformation": "x = 21/127",
+        "maxStepSize": 0.05,
+        "minStepFactor": 1,
+        "maxStepFactor": 5
+      },
+      "target": {
+        "type": 63,
+        "fxAnchor": "id",
+        "useSelectionGanging": false,
+        "useTrackGrouping": false,
+        "seekBehavior": "Immediate",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0,
+        "mouseAction": {
+          "kind": "MoveTo",
+          "axis": "X"
+        },
+        "takeMappingSnapshot": {
+          "kind": "LastLoaded"
+        }
+      }
+    },
+    {
+      "id": "mpkPage10PaLed000000",
+      "name": "Pad 10 LED in Notes mode",
+      "controlIsEnabled": false,
+      "source": {
+        "category": "virtual",
+        "controlElementIndex": "pad/10",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "buttonIndex": 0,
+        "buttonDesign": {
+          "background": {
+            "kind": "Color"
+          },
+          "foreground": {
+            "kind": "None"
+          },
+          "static_text": ""
+        }
+      },
+      "mode": {
+        "eelFeedbackTransformation": "x = 21/127",
+        "maxStepSize": 0.05,
+        "minStepFactor": 1,
+        "maxStepFactor": 5
+      },
+      "target": {
+        "type": 63,
+        "fxAnchor": "id",
+        "useSelectionGanging": false,
+        "useTrackGrouping": false,
+        "seekBehavior": "Immediate",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0,
+        "mouseAction": {
+          "kind": "MoveTo",
+          "axis": "X"
+        },
+        "takeMappingSnapshot": {
+          "kind": "LastLoaded"
+        }
+      }
+    },
+    {
+      "id": "mpkPage11PaLed000000",
+      "name": "Pad 11 LED in Notes mode",
+      "controlIsEnabled": false,
+      "source": {
+        "category": "virtual",
+        "controlElementIndex": "pad/11",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "buttonIndex": 0,
+        "buttonDesign": {
+          "background": {
+            "kind": "Color"
+          },
+          "foreground": {
+            "kind": "None"
+          },
+          "static_text": ""
+        }
+      },
+      "mode": {
+        "eelFeedbackTransformation": "x = 21/127",
+        "maxStepSize": 0.05,
+        "minStepFactor": 1,
+        "maxStepFactor": 5
+      },
+      "target": {
+        "type": 63,
+        "fxAnchor": "id",
+        "useSelectionGanging": false,
+        "useTrackGrouping": false,
+        "seekBehavior": "Immediate",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0,
+        "mouseAction": {
+          "kind": "MoveTo",
+          "axis": "X"
+        },
+        "takeMappingSnapshot": {
+          "kind": "LastLoaded"
+        }
+      }
+    },
+    {
+      "id": "mpkPage12PaLed000000",
+      "name": "Pad 12 LED in Notes mode",
+      "controlIsEnabled": false,
+      "source": {
+        "category": "virtual",
+        "controlElementIndex": "pad/12",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "buttonIndex": 0,
+        "buttonDesign": {
+          "background": {
+            "kind": "Color"
+          },
+          "foreground": {
+            "kind": "None"
+          },
+          "static_text": ""
+        }
+      },
+      "mode": {
+        "eelFeedbackTransformation": "x = 21/127",
+        "maxStepSize": 0.05,
+        "minStepFactor": 1,
+        "maxStepFactor": 5
+      },
+      "target": {
+        "type": 63,
+        "fxAnchor": "id",
+        "useSelectionGanging": false,
+        "useTrackGrouping": false,
+        "seekBehavior": "Immediate",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0,
+        "mouseAction": {
+          "kind": "MoveTo",
+          "axis": "X"
+        },
+        "takeMappingSnapshot": {
+          "kind": "LastLoaded"
+        }
+      }
+    },
+    {
+      "id": "mpkPage13PaLed000000",
+      "name": "Pad 13 LED in Notes mode",
+      "controlIsEnabled": false,
+      "source": {
+        "category": "virtual",
+        "controlElementIndex": "pad/13",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "buttonIndex": 0,
+        "buttonDesign": {
+          "background": {
+            "kind": "Color"
+          },
+          "foreground": {
+            "kind": "None"
+          },
+          "static_text": ""
+        }
+      },
+      "mode": {
+        "eelFeedbackTransformation": "x = 21/127",
+        "maxStepSize": 0.05,
+        "minStepFactor": 1,
+        "maxStepFactor": 5
+      },
+      "target": {
+        "type": 63,
+        "fxAnchor": "id",
+        "useSelectionGanging": false,
+        "useTrackGrouping": false,
+        "seekBehavior": "Immediate",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0,
+        "mouseAction": {
+          "kind": "MoveTo",
+          "axis": "X"
+        },
+        "takeMappingSnapshot": {
+          "kind": "LastLoaded"
+        }
+      }
+    },
+    {
+      "id": "mpkPage14PaLed000000",
+      "name": "Pad 14 LED in Notes mode",
+      "controlIsEnabled": false,
+      "source": {
+        "category": "virtual",
+        "controlElementIndex": "pad/14",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "buttonIndex": 0,
+        "buttonDesign": {
+          "background": {
+            "kind": "Color"
+          },
+          "foreground": {
+            "kind": "None"
+          },
+          "static_text": ""
+        }
+      },
+      "mode": {
+        "eelFeedbackTransformation": "x = 21/127",
+        "maxStepSize": 0.05,
+        "minStepFactor": 1,
+        "maxStepFactor": 5
+      },
+      "target": {
+        "type": 63,
+        "fxAnchor": "id",
+        "useSelectionGanging": false,
+        "useTrackGrouping": false,
+        "seekBehavior": "Immediate",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0,
+        "mouseAction": {
+          "kind": "MoveTo",
+          "axis": "X"
+        },
+        "takeMappingSnapshot": {
+          "kind": "LastLoaded"
+        }
+      }
+    },
+    {
+      "id": "mpkPage15PaLed000000",
+      "name": "Pad 15 LED in Notes mode",
+      "controlIsEnabled": false,
+      "source": {
+        "category": "virtual",
+        "controlElementIndex": "pad/15",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "buttonIndex": 0,
+        "buttonDesign": {
+          "background": {
+            "kind": "Color"
+          },
+          "foreground": {
+            "kind": "None"
+          },
+          "static_text": ""
+        }
+      },
+      "mode": {
+        "eelFeedbackTransformation": "x = 21/127",
+        "maxStepSize": 0.05,
+        "minStepFactor": 1,
+        "maxStepFactor": 5
+      },
+      "target": {
+        "type": 63,
+        "fxAnchor": "id",
+        "useSelectionGanging": false,
+        "useTrackGrouping": false,
+        "seekBehavior": "Immediate",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0,
+        "mouseAction": {
+          "kind": "MoveTo",
+          "axis": "X"
+        },
+        "takeMappingSnapshot": {
+          "kind": "LastLoaded"
+        }
+      }
+    },
+    {
+      "id": "mpkPage16PaLed000000",
+      "name": "Pad 16 LED in Notes mode",
+      "controlIsEnabled": false,
+      "source": {
+        "category": "virtual",
+        "controlElementIndex": "pad/16",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "buttonIndex": 0,
+        "buttonDesign": {
+          "background": {
+            "kind": "Color"
+          },
+          "foreground": {
+            "kind": "None"
+          },
+          "static_text": ""
+        }
+      },
+      "mode": {
+        "eelFeedbackTransformation": "x = 21/127",
+        "maxStepSize": 0.05,
+        "minStepFactor": 1,
+        "maxStepFactor": 5
+      },
+      "target": {
+        "type": 63,
+        "fxAnchor": "id",
+        "useSelectionGanging": false,
+        "useTrackGrouping": false,
+        "seekBehavior": "Immediate",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0,
+        "mouseAction": {
+          "kind": "MoveTo",
+          "axis": "X"
+        },
+        "takeMappingSnapshot": {
+          "kind": "LastLoaded"
+        }
+      }
+    },
+    {
+      "id": "mpkPage01PrLed000000",
+      "name": "Pad 1 LED in Program Change mode",
+      "controlIsEnabled": false,
+      "source": {
+        "category": "virtual",
+        "controlElementIndex": "program/1",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "buttonIndex": 0,
+        "buttonDesign": {
+          "background": {
+            "kind": "Color"
+          },
+          "foreground": {
+            "kind": "None"
+          },
+          "static_text": ""
+        }
+      },
+      "mode": {
+        "eelFeedbackTransformation": "x = 41/127",
+        "maxStepSize": 0.05,
+        "minStepFactor": 1,
+        "maxStepFactor": 5
+      },
+      "target": {
+        "type": 63,
+        "fxAnchor": "id",
+        "useSelectionGanging": false,
+        "useTrackGrouping": false,
+        "seekBehavior": "Immediate",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0,
+        "mouseAction": {
+          "kind": "MoveTo",
+          "axis": "X"
+        },
+        "takeMappingSnapshot": {
+          "kind": "LastLoaded"
+        }
+      }
+    },
+    {
+      "id": "mpkPage02PrLed000000",
+      "name": "Pad 2 LED in Program Change mode",
+      "controlIsEnabled": false,
+      "source": {
+        "category": "virtual",
+        "controlElementIndex": "program/2",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "buttonIndex": 0,
+        "buttonDesign": {
+          "background": {
+            "kind": "Color"
+          },
+          "foreground": {
+            "kind": "None"
+          },
+          "static_text": ""
+        }
+      },
+      "mode": {
+        "eelFeedbackTransformation": "x = 41/127",
+        "maxStepSize": 0.05,
+        "minStepFactor": 1,
+        "maxStepFactor": 5
+      },
+      "target": {
+        "type": 63,
+        "fxAnchor": "id",
+        "useSelectionGanging": false,
+        "useTrackGrouping": false,
+        "seekBehavior": "Immediate",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0,
+        "mouseAction": {
+          "kind": "MoveTo",
+          "axis": "X"
+        },
+        "takeMappingSnapshot": {
+          "kind": "LastLoaded"
+        }
+      }
+    },
+    {
+      "id": "mpkPage03PrLed000000",
+      "name": "Pad 3 LED in Program Change mode",
+      "controlIsEnabled": false,
+      "source": {
+        "category": "virtual",
+        "controlElementIndex": "program/3",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "buttonIndex": 0,
+        "buttonDesign": {
+          "background": {
+            "kind": "Color"
+          },
+          "foreground": {
+            "kind": "None"
+          },
+          "static_text": ""
+        }
+      },
+      "mode": {
+        "eelFeedbackTransformation": "x = 41/127",
+        "maxStepSize": 0.05,
+        "minStepFactor": 1,
+        "maxStepFactor": 5
+      },
+      "target": {
+        "type": 63,
+        "fxAnchor": "id",
+        "useSelectionGanging": false,
+        "useTrackGrouping": false,
+        "seekBehavior": "Immediate",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0,
+        "mouseAction": {
+          "kind": "MoveTo",
+          "axis": "X"
+        },
+        "takeMappingSnapshot": {
+          "kind": "LastLoaded"
+        }
+      }
+    },
+    {
+      "id": "mpkPage04PrLed000000",
+      "name": "Pad 4 LED in Program Change mode",
+      "controlIsEnabled": false,
+      "source": {
+        "category": "virtual",
+        "controlElementIndex": "program/4",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "buttonIndex": 0,
+        "buttonDesign": {
+          "background": {
+            "kind": "Color"
+          },
+          "foreground": {
+            "kind": "None"
+          },
+          "static_text": ""
+        }
+      },
+      "mode": {
+        "eelFeedbackTransformation": "x = 41/127",
+        "maxStepSize": 0.05,
+        "minStepFactor": 1,
+        "maxStepFactor": 5
+      },
+      "target": {
+        "type": 63,
+        "fxAnchor": "id",
+        "useSelectionGanging": false,
+        "useTrackGrouping": false,
+        "seekBehavior": "Immediate",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0,
+        "mouseAction": {
+          "kind": "MoveTo",
+          "axis": "X"
+        },
+        "takeMappingSnapshot": {
+          "kind": "LastLoaded"
+        }
+      }
+    },
+    {
+      "id": "mpkPage05PrLed000000",
+      "name": "Pad 5 LED in Program Change mode",
+      "controlIsEnabled": false,
+      "source": {
+        "category": "virtual",
+        "controlElementIndex": "program/5",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "buttonIndex": 0,
+        "buttonDesign": {
+          "background": {
+            "kind": "Color"
+          },
+          "foreground": {
+            "kind": "None"
+          },
+          "static_text": ""
+        }
+      },
+      "mode": {
+        "eelFeedbackTransformation": "x = 41/127",
+        "maxStepSize": 0.05,
+        "minStepFactor": 1,
+        "maxStepFactor": 5
+      },
+      "target": {
+        "type": 63,
+        "fxAnchor": "id",
+        "useSelectionGanging": false,
+        "useTrackGrouping": false,
+        "seekBehavior": "Immediate",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0,
+        "mouseAction": {
+          "kind": "MoveTo",
+          "axis": "X"
+        },
+        "takeMappingSnapshot": {
+          "kind": "LastLoaded"
+        }
+      }
+    },
+    {
+      "id": "mpkPage06PrLed000000",
+      "name": "Pad 6 LED in Program Change mode",
+      "controlIsEnabled": false,
+      "source": {
+        "category": "virtual",
+        "controlElementIndex": "program/6",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "buttonIndex": 0,
+        "buttonDesign": {
+          "background": {
+            "kind": "Color"
+          },
+          "foreground": {
+            "kind": "None"
+          },
+          "static_text": ""
+        }
+      },
+      "mode": {
+        "eelFeedbackTransformation": "x = 41/127",
+        "maxStepSize": 0.05,
+        "minStepFactor": 1,
+        "maxStepFactor": 5
+      },
+      "target": {
+        "type": 63,
+        "fxAnchor": "id",
+        "useSelectionGanging": false,
+        "useTrackGrouping": false,
+        "seekBehavior": "Immediate",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0,
+        "mouseAction": {
+          "kind": "MoveTo",
+          "axis": "X"
+        },
+        "takeMappingSnapshot": {
+          "kind": "LastLoaded"
+        }
+      }
+    },
+    {
+      "id": "mpkPage07PrLed000000",
+      "name": "Pad 7 LED in Program Change mode",
+      "controlIsEnabled": false,
+      "source": {
+        "category": "virtual",
+        "controlElementIndex": "program/7",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "buttonIndex": 0,
+        "buttonDesign": {
+          "background": {
+            "kind": "Color"
+          },
+          "foreground": {
+            "kind": "None"
+          },
+          "static_text": ""
+        }
+      },
+      "mode": {
+        "eelFeedbackTransformation": "x = 41/127",
+        "maxStepSize": 0.05,
+        "minStepFactor": 1,
+        "maxStepFactor": 5
+      },
+      "target": {
+        "type": 63,
+        "fxAnchor": "id",
+        "useSelectionGanging": false,
+        "useTrackGrouping": false,
+        "seekBehavior": "Immediate",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0,
+        "mouseAction": {
+          "kind": "MoveTo",
+          "axis": "X"
+        },
+        "takeMappingSnapshot": {
+          "kind": "LastLoaded"
+        }
+      }
+    },
+    {
+      "id": "mpkPage08PrLed000000",
+      "name": "Pad 8 LED in Program Change mode",
+      "controlIsEnabled": false,
+      "source": {
+        "category": "virtual",
+        "controlElementIndex": "program/8",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "buttonIndex": 0,
+        "buttonDesign": {
+          "background": {
+            "kind": "Color"
+          },
+          "foreground": {
+            "kind": "None"
+          },
+          "static_text": ""
+        }
+      },
+      "mode": {
+        "eelFeedbackTransformation": "x = 41/127",
+        "maxStepSize": 0.05,
+        "minStepFactor": 1,
+        "maxStepFactor": 5
+      },
+      "target": {
+        "type": 63,
+        "fxAnchor": "id",
+        "useSelectionGanging": false,
+        "useTrackGrouping": false,
+        "seekBehavior": "Immediate",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0,
+        "mouseAction": {
+          "kind": "MoveTo",
+          "axis": "X"
+        },
+        "takeMappingSnapshot": {
+          "kind": "LastLoaded"
+        }
+      }
+    },
+    {
+      "id": "mpkPage09PrLed000000",
+      "name": "Pad 9 LED in Program Change mode",
+      "controlIsEnabled": false,
+      "source": {
+        "category": "virtual",
+        "controlElementIndex": "program/9",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "buttonIndex": 0,
+        "buttonDesign": {
+          "background": {
+            "kind": "Color"
+          },
+          "foreground": {
+            "kind": "None"
+          },
+          "static_text": ""
+        }
+      },
+      "mode": {
+        "eelFeedbackTransformation": "x = 41/127",
+        "maxStepSize": 0.05,
+        "minStepFactor": 1,
+        "maxStepFactor": 5
+      },
+      "target": {
+        "type": 63,
+        "fxAnchor": "id",
+        "useSelectionGanging": false,
+        "useTrackGrouping": false,
+        "seekBehavior": "Immediate",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0,
+        "mouseAction": {
+          "kind": "MoveTo",
+          "axis": "X"
+        },
+        "takeMappingSnapshot": {
+          "kind": "LastLoaded"
+        }
+      }
+    },
+    {
+      "id": "mpkPage10PrLed000000",
+      "name": "Pad 10 LED in Program Change mode",
+      "controlIsEnabled": false,
+      "source": {
+        "category": "virtual",
+        "controlElementIndex": "program/10",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "buttonIndex": 0,
+        "buttonDesign": {
+          "background": {
+            "kind": "Color"
+          },
+          "foreground": {
+            "kind": "None"
+          },
+          "static_text": ""
+        }
+      },
+      "mode": {
+        "eelFeedbackTransformation": "x = 41/127",
+        "maxStepSize": 0.05,
+        "minStepFactor": 1,
+        "maxStepFactor": 5
+      },
+      "target": {
+        "type": 63,
+        "fxAnchor": "id",
+        "useSelectionGanging": false,
+        "useTrackGrouping": false,
+        "seekBehavior": "Immediate",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0,
+        "mouseAction": {
+          "kind": "MoveTo",
+          "axis": "X"
+        },
+        "takeMappingSnapshot": {
+          "kind": "LastLoaded"
+        }
+      }
+    },
+    {
+      "id": "mpkPage11PrLed000000",
+      "name": "Pad 11 LED in Program Change mode",
+      "controlIsEnabled": false,
+      "source": {
+        "category": "virtual",
+        "controlElementIndex": "program/11",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "buttonIndex": 0,
+        "buttonDesign": {
+          "background": {
+            "kind": "Color"
+          },
+          "foreground": {
+            "kind": "None"
+          },
+          "static_text": ""
+        }
+      },
+      "mode": {
+        "eelFeedbackTransformation": "x = 41/127",
+        "maxStepSize": 0.05,
+        "minStepFactor": 1,
+        "maxStepFactor": 5
+      },
+      "target": {
+        "type": 63,
+        "fxAnchor": "id",
+        "useSelectionGanging": false,
+        "useTrackGrouping": false,
+        "seekBehavior": "Immediate",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0,
+        "mouseAction": {
+          "kind": "MoveTo",
+          "axis": "X"
+        },
+        "takeMappingSnapshot": {
+          "kind": "LastLoaded"
+        }
+      }
+    },
+    {
+      "id": "mpkPage12PrLed000000",
+      "name": "Pad 12 LED in Program Change mode",
+      "controlIsEnabled": false,
+      "source": {
+        "category": "virtual",
+        "controlElementIndex": "program/12",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "buttonIndex": 0,
+        "buttonDesign": {
+          "background": {
+            "kind": "Color"
+          },
+          "foreground": {
+            "kind": "None"
+          },
+          "static_text": ""
+        }
+      },
+      "mode": {
+        "eelFeedbackTransformation": "x = 41/127",
+        "maxStepSize": 0.05,
+        "minStepFactor": 1,
+        "maxStepFactor": 5
+      },
+      "target": {
+        "type": 63,
+        "fxAnchor": "id",
+        "useSelectionGanging": false,
+        "useTrackGrouping": false,
+        "seekBehavior": "Immediate",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0,
+        "mouseAction": {
+          "kind": "MoveTo",
+          "axis": "X"
+        },
+        "takeMappingSnapshot": {
+          "kind": "LastLoaded"
+        }
+      }
+    },
+    {
+      "id": "mpkPage13PrLed000000",
+      "name": "Pad 13 LED in Program Change mode",
+      "controlIsEnabled": false,
+      "source": {
+        "category": "virtual",
+        "controlElementIndex": "program/13",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "buttonIndex": 0,
+        "buttonDesign": {
+          "background": {
+            "kind": "Color"
+          },
+          "foreground": {
+            "kind": "None"
+          },
+          "static_text": ""
+        }
+      },
+      "mode": {
+        "eelFeedbackTransformation": "x = 41/127",
+        "maxStepSize": 0.05,
+        "minStepFactor": 1,
+        "maxStepFactor": 5
+      },
+      "target": {
+        "type": 63,
+        "fxAnchor": "id",
+        "useSelectionGanging": false,
+        "useTrackGrouping": false,
+        "seekBehavior": "Immediate",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0,
+        "mouseAction": {
+          "kind": "MoveTo",
+          "axis": "X"
+        },
+        "takeMappingSnapshot": {
+          "kind": "LastLoaded"
+        }
+      }
+    },
+    {
+      "id": "mpkPage14PrLed000000",
+      "name": "Pad 14 LED in Program Change mode",
+      "controlIsEnabled": false,
+      "source": {
+        "category": "virtual",
+        "controlElementIndex": "program/14",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "buttonIndex": 0,
+        "buttonDesign": {
+          "background": {
+            "kind": "Color"
+          },
+          "foreground": {
+            "kind": "None"
+          },
+          "static_text": ""
+        }
+      },
+      "mode": {
+        "eelFeedbackTransformation": "x = 41/127",
+        "maxStepSize": 0.05,
+        "minStepFactor": 1,
+        "maxStepFactor": 5
+      },
+      "target": {
+        "type": 63,
+        "fxAnchor": "id",
+        "useSelectionGanging": false,
+        "useTrackGrouping": false,
+        "seekBehavior": "Immediate",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0,
+        "mouseAction": {
+          "kind": "MoveTo",
+          "axis": "X"
+        },
+        "takeMappingSnapshot": {
+          "kind": "LastLoaded"
+        }
+      }
+    },
+    {
+      "id": "mpkPage15PrLed000000",
+      "name": "Pad 15 LED in Program Change mode",
+      "controlIsEnabled": false,
+      "source": {
+        "category": "virtual",
+        "controlElementIndex": "program/15",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "buttonIndex": 0,
+        "buttonDesign": {
+          "background": {
+            "kind": "Color"
+          },
+          "foreground": {
+            "kind": "None"
+          },
+          "static_text": ""
+        }
+      },
+      "mode": {
+        "eelFeedbackTransformation": "x = 41/127",
+        "maxStepSize": 0.05,
+        "minStepFactor": 1,
+        "maxStepFactor": 5
+      },
+      "target": {
+        "type": 63,
+        "fxAnchor": "id",
+        "useSelectionGanging": false,
+        "useTrackGrouping": false,
+        "seekBehavior": "Immediate",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0,
+        "mouseAction": {
+          "kind": "MoveTo",
+          "axis": "X"
+        },
+        "takeMappingSnapshot": {
+          "kind": "LastLoaded"
+        }
+      }
+    },
+    {
+      "id": "mpkPage16PrLed000000",
+      "name": "Pad 16 LED in Program Change mode",
+      "controlIsEnabled": false,
+      "source": {
+        "category": "virtual",
+        "controlElementIndex": "program/16",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "buttonIndex": 0,
+        "buttonDesign": {
+          "background": {
+            "kind": "Color"
+          },
+          "foreground": {
+            "kind": "None"
+          },
+          "static_text": ""
+        }
+      },
+      "mode": {
+        "eelFeedbackTransformation": "x = 41/127",
+        "maxStepSize": 0.05,
+        "minStepFactor": 1,
+        "maxStepFactor": 5
+      },
+      "target": {
+        "type": 63,
+        "fxAnchor": "id",
+        "useSelectionGanging": false,
+        "useTrackGrouping": false,
+        "seekBehavior": "Immediate",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0,
+        "mouseAction": {
+          "kind": "MoveTo",
+          "axis": "X"
+        },
+        "takeMappingSnapshot": {
+          "kind": "LastLoaded"
+        }
+      }
+    }
+  ],
+  "parameters": {}
+}
