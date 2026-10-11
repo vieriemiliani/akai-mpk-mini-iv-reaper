@@ -64,6 +64,21 @@ Mode, Knob-1 to Knob-8   absolute                 Rel (relative, INC/DEC)
 
 Then save the preset on the device.
 
+> **Editing a user preset on the MPK**
+>
+> 1. **Load the user preset.** Hold SHIFT and press PLUGIN/DAW (USER
+>    PRESETS). Turn the encoder to pick the preset and press it to load.
+> 2. **Open Program Edit.** Hold SHIFT and press OCT −. Turn the encoder
+>    to pick a setting and press it to open. Turn it to change the value
+>    and press it to confirm.
+> 3. **Save.** Hold SHIFT and press OCT +. Turn the encoder to pick the
+>    user preset slot and press it to confirm. Choose the slot you
+>    loaded to keep your changes in that preset.
+>
+> DAW and Plugin presets cannot be edited or saved over; start from a
+> user preset. Details: *MPK mini IV User Guide* v1.2, chapter
+> "Program Edit", page 20.
+
 Leave everything else as it is: pad notes (Note#, 36–51), pad program
 changes (PC#, 0–15), pad MIDI channels (MidiCh), knob range (LoVal 0,
 HiVal 127) and pad colours (Off C, On C). ReaLearn sets the pad colours
